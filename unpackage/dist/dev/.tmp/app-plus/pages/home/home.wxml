@@ -1,0 +1,1 @@
+<view class="data-v-160debbe"><home-search vue-id="1" class="data-v-160debbe" bind:__l="__l"></home-search><home-header vue-id="2" class="data-v-160debbe" bind:__l="__l"></home-header><home-top-news vue-id="3" class="data-v-160debbe" bind:__l="__l"></home-top-news><home-normal-news vue-id="4" class="data-v-160debbe" bind:__l="__l"></home-normal-news></view>

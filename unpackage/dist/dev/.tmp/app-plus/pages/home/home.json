@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "UniApp",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "home-search": "/pages/components/homeSearch",
+    "home-header": "/pages/components/homeHeader",
+    "home-top-news": "/pages/components/homeTopNews",
+    "home-normal-news": "/pages/components/homeNormalNews"
+  }
+}
