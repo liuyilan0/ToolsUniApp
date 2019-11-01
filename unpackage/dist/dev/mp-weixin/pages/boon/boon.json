@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "boon-header": "/pages/boon/components/boonHeader",
+    "boon-list": "/pages/boon/components/boonList"
+  }
+}

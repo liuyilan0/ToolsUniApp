@@ -102,11 +102,11 @@
 /******/
 /******/
 /******/ 		// mini-css-extract-plugin CSS loading
-/******/ 		var cssChunks = {"pages/components/homeHeader":1,"pages/components/homeNormalNews":1,"pages/components/homeTopNews":1};
+/******/ 		var cssChunks = {"components/icon/uni-icons/uni-icons":1,"components/nav-bar/uni-nav-bar/uni-nav-bar":1,"components/nav-bar/uni-status-bar/uni-status-bar":1,"pages/components/homeHeader":1,"pages/components/homeNormalNews":1,"pages/components/homeNoticeBar":1,"pages/components/homeSearch":1,"pages/components/homeTopNews":1,"components/nav-bar/uni-icons/uni-icons":1,"components/notice-bar/uni-notice-bar/uni-notice-bar":1,"components/notice-bar/uni-icons/uni-icons":1};
 /******/ 		if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 		else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 			promises.push(installedCssChunks[chunkId] = new Promise(function(resolve, reject) {
-/******/ 				var href = "" + ({"pages/components/homeHeader":"pages/components/homeHeader","pages/components/homeNormalNews":"pages/components/homeNormalNews","pages/components/homeTopNews":"pages/components/homeTopNews"}[chunkId]||chunkId) + ".wxss";
+/******/ 				var href = "" + ({"components/icon/uni-icons/uni-icons":"components/icon/uni-icons/uni-icons","components/nav-bar/uni-nav-bar/uni-nav-bar":"components/nav-bar/uni-nav-bar/uni-nav-bar","components/nav-bar/uni-status-bar/uni-status-bar":"components/nav-bar/uni-status-bar/uni-status-bar","pages/components/homeHeader":"pages/components/homeHeader","pages/components/homeNormalNews":"pages/components/homeNormalNews","pages/components/homeNoticeBar":"pages/components/homeNoticeBar","pages/components/homeSearch":"pages/components/homeSearch","pages/components/homeTopNews":"pages/components/homeTopNews","components/nav-bar/uni-icons/uni-icons":"components/nav-bar/uni-icons/uni-icons","components/notice-bar/uni-notice-bar/uni-notice-bar":"components/notice-bar/uni-notice-bar/uni-notice-bar","components/notice-bar/uni-icons/uni-icons":"components/notice-bar/uni-icons/uni-icons"}[chunkId]||chunkId) + ".wxss";
 /******/ 				var fullhref = __webpack_require__.p + href;
 /******/ 				var existingLinkTags = document.getElementsByTagName("link");
 /******/ 				for(var i = 0; i < existingLinkTags.length; i++) {

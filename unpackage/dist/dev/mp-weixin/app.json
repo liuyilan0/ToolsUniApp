@@ -3,11 +3,13 @@
     "pages/home/home",
     "pages/community/community",
     "pages/discover/discover",
-    "pages/detail/detail"
+    "pages/detail/detail",
+    "pages/search/search",
+    "pages/boon/boon"
   ],
   "subPackages": [],
   "window": {
-    "navigationStyle": "custom",
+    "navigationStyle": "default",
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "今日早间",
     "navigationBarBackgroundColor": "#FFFFFF",
@@ -39,5 +41,6 @@
     "selectedColor": "#000"
   },
   "permission": {},
-  "usingComponents": {}
+  "usingComponents": {},
+  "sitemapLocation": "sitemap75.json"
 }

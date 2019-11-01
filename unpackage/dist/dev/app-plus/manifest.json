@@ -11,7 +11,7 @@
     "code": "100"
   },
   "description": "",
-  "launch_path": "__uniapptabbar.html",
+  "launch_path": "__uniappview.html",
   "developer": {
     "name": "",
     "email": "",
@@ -24,7 +24,7 @@
   },
   "plus": {
     "useragent": {
-      "value": "uni-app appservice",
+      "value": "uni-app",
       "concatenate": true
     },
     "splashscreen": {
@@ -34,11 +34,15 @@
       "delay": 0
     },
     "popGesture": "close",
-    "launchwebview": {},
+    "launchwebview": {
+      "id": "1",
+      "kernel": "WKWebview",
+      "uni-app": "auto"
+    },
     "statusbar": {
       "immersed": "supportedDevice",
       "style": "dark",
-      "background": "#FFF"
+      "background": "#FFFFFF"
     },
     "usingComponents": true,
     "nvueCompiler": "uni-app",
@@ -87,7 +91,7 @@
       }
     },
     "uni-app": {
-      "compilerVersion": "2.3.3",
+      "compilerVersion": "2.3.6",
       "control": "v8",
       "nvueCompiler": "uni-app",
       "renderer": "auto",
@@ -95,13 +99,36 @@
         "flex-direction": "column"
       }
     },
-    "secondwebview": {
-      "id": "1",
-      "launch_path": "__uniappview.html",
-      "kernel": "WKWebview",
-      "mode": "child",
-      "top": 0,
-      "bottom": 56
+    "tabBar": {
+      "list": [
+        {
+          "pagePath": "pages/home/home",
+          "text": "首页",
+          "iconPath": "static/images/home.png",
+          "selectedIconPath": "static/images/home-selected.png"
+        },
+        {
+          "pagePath": "pages/community/community",
+          "text": "社区",
+          "iconPath": "static/images/community.png",
+          "selectedIconPath": "static/images/community-selected.png"
+        },
+        {
+          "pagePath": "pages/discover/discover",
+          "text": "发现",
+          "iconPath": "static/images/discover.png",
+          "selectedIconPath": "static/images/discover-selected.png"
+        }
+      ],
+      "backgroundColor": "#ffffff",
+      "color": "#8F8F94",
+      "selectedColor": "#000",
+      "borderStyle": "rgba(0,0,0,0.4)",
+      "height": "50px",
+      "child": [
+        "lauchwebview"
+      ],
+      "selected": 0
     }
   }
 }

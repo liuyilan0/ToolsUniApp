@@ -1,0 +1,48 @@
+.container.data-v-5b0d222d {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20rpx 30rpx;
+}
+.container .user_info.data-v-5b0d222d {
+  width: 60%;
+}
+.container .user_info .name_info.data-v-5b0d222d {
+  margin: 20rpx 0;
+  font-size: 34rpx;
+}
+.container .user_info .account_info.data-v-5b0d222d {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 30rpx 0;
+}
+.container .user_info .account_info .account_item.data-v-5b0d222d {
+  font-weight: 400;
+  font-size: 26rpx;
+  font-family: 'KaiTi';
+}
+.container .icon_view.data-v-5b0d222d {
+  width: 120rpx;
+  height: 120rpx;
+}
+.container .icon_view .icon.data-v-5b0d222d {
+  width: 100%;
+  height: 100%;
+  border-radius: 60rpx;
+}
+

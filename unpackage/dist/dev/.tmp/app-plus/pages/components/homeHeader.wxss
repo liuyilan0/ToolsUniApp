@@ -41,18 +41,21 @@
           flex-direction: column;
   margin-left: 30rpx;
   text-align: center;
-  font-size: 12rpx;
+  font-size: 16rpx;
 }
 .container .content .date-view .day.data-v-0c2088f7 {
   font-size: 40rpx;
   border-bottom: 1rpx dashed #000;
+  font-family: 'KaiTi';
 }
 .container .content .date-view .date.data-v-0c2088f7 {
   height: 28rpx;
   line-height: 28rpx;
+  font-family: 'KaiTi';
 }
 .container .content .title.data-v-0c2088f7 {
-  font-size: 50rpx;
+  font-size: 56rpx;
+  font-family: 'KaiTi';
 }
 .container .content .category.data-v-0c2088f7 {
   width: 44rpx;
@@ -62,7 +65,7 @@
 }
 .container .bottom_line.data-v-0c2088f7 {
   height: 4rpx;
-  margin: 18rpx 20rpx;
+  margin: 6rpx 20rpx;
   background: #000;
 }
 

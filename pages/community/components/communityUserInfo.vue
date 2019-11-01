@@ -1,0 +1,117 @@
+<template>
+	<view>
+		<view class="container default_bg_color">
+			<view class="user_info">
+				<view class="name_info">{{userInfo.nickname}}</view>
+				<view class="account_info">
+					<block v-for="(item,index) of accountInfo" :key='index'>
+						<view class="account_item">
+							<view style="margin-left: 6upx;">{{item.number}}</view>
+							<view style="margin-top: 12upx;">{{item.title}}</view>
+						</view>
+					</block>
+				</view>
+			</view>
+			<view class="icon_view">
+				<image class="icon" :src="userInfo.headimgurl"></image>
+			</view>
+		</view>
+		
+		<canvas style="width: 100%; height: 160upx; background: #007AFF;" canvas-id="canvas"></canvas>
+	</view>
+</template>
+
+<script>
+	export default {
+		name: 'CommmunityUserInfo',
+		data() {
+			return {
+				accountInfo: [{
+						"title": "订单",
+						"number": "0"
+					},
+					{
+						"title": "红包",
+						"number": "0"
+					},
+					{
+						"title": "优惠券",
+						"number": "0"
+					}]
+			}
+		},
+		props: {
+			userInfo: Object
+		},
+		onReady: function (e) {
+				
+		       var ctx = uni.createCanvasContext('canvas')
+			   // 波浪大小
+			   var boHeight = 10;
+			    var posHeight = 90;
+			    //初始角度为0 
+			    var step = 0; 
+			    //定义三条不同波浪的颜色 
+			    var lines = ["rgba(0,222,255, 0.2)", 
+			        "rgba(157,192,249, 0.2)", 
+			        "rgba(0,168,255, 0.2)"]; 
+			   this.loop(ctx, step, lines, boHeight, posHeight)
+		  },
+		  methods: {
+			  loop(ctx, step, lines, boHeight, posHeight) {
+				   // ctx.clearRect(0,0,300,100); 
+				    ctx.setStrokeStyle("#00ff00")
+					ctx.setLineWidth(5)
+					
+				   step++; 
+				   //画3个不同颜色的矩形 
+				   for(var j = lines.length - 1; j >= 0; j--) { 
+						ctx.fillStyle = lines[j]; 
+						//每个矩形的角度都不同，每个之间相差45度 
+						var angle = (step+j*50)*Math.PI/180; 
+						var deltaHeight = Math.sin(angle) * boHeight;
+						var deltaHeightRight = Math.cos(angle) * boHeight; 
+						ctx.beginPath();
+						ctx.moveTo(0, posHeight+deltaHeight); 
+						ctx.bezierCurveTo(300/2, posHeight+deltaHeight-boHeight, 300 / 2, posHeight+deltaHeightRight-boHeight, 300, posHeight+deltaHeightRight); 
+						ctx.lineTo(300, 100); 
+						ctx.lineTo(0, 100); 
+						ctx.lineTo(0, posHeight+deltaHeight); 
+						ctx.closePath(); 
+						ctx.fill(); 
+					}
+			  },
+		      canvasIdErrorCallback: function (e) {
+		          console.error(e.detail.errMsg)
+		      }
+		  }
+	}
+</script>
+
+<style scoped lang="stylus">
+	.container 
+		display: flex 
+		align-items: center
+		justify-content: space-between
+		padding: 20upx 30upx
+		.user_info
+			width: 60%
+			.name_info  
+				margin: 20upx 0
+				font-size: 34upx
+			.account_info
+				display: flex
+				justify-content: space-between
+				margin: 30upx 0
+				.account_item  
+					font-weight: 400
+					font-size: 26upx
+					font-family: 'KaiTi'
+		.icon_view 
+			width: 120upx
+			height: 120upx
+			.icon 
+				width: 100% 
+				height: 100%
+				border-radius: 60upx
+</style>

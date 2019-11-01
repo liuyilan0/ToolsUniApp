@@ -1,6 +1,6 @@
-(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["common/vendor"],[
-/* 0 */,
-/* 1 */
+(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["common/vendor"],{
+
+/***/ 1:
 /*!************************************************************!*\
   !*** ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js ***!
   \************************************************************/
@@ -484,6 +484,7 @@ function wrapper(methodName, method) {
 var todoApis = Object.create(null);
 
 var TODOS = [
+'onTabBarMidButtonTap',
 'subscribePush',
 'unsubscribePush',
 'onPush',
@@ -1176,6 +1177,8 @@ function parseBaseApp(vm, _ref3)
 
 
       this.$vm.$scope = this;
+      // vm 上也挂载 globalData
+      this.$vm.globalData = this.globalData;
 
       this.$vm._isMounted = true;
       this.$vm.__call_hook('mounted', args);
@@ -1496,7 +1499,115 @@ var uni$1 = uni;var _default =
 uni$1;exports.default = _default;
 
 /***/ }),
-/* 2 */
+
+/***/ 14:
+/*!********************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/runtime/componentNormalizer.js ***!
+  \********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return normalizeComponent; });
+/* globals __VUE_SSR_CONTEXT__ */
+
+// IMPORTANT: Do NOT use ES2015 features in this file (except for modules).
+// This module is a runtime utility for cleaner component module output and will
+// be included in the final webpack user bundle.
+
+function normalizeComponent (
+  scriptExports,
+  render,
+  staticRenderFns,
+  functionalTemplate,
+  injectStyles,
+  scopeId,
+  moduleIdentifier, /* server only */
+  shadowMode /* vue-cli only */
+) {
+  // Vue.extend constructor export interop
+  var options = typeof scriptExports === 'function'
+    ? scriptExports.options
+    : scriptExports
+
+  // render functions
+  if (render) {
+    options.render = render
+    options.staticRenderFns = staticRenderFns
+    options._compiled = true
+  }
+
+  // functional template
+  if (functionalTemplate) {
+    options.functional = true
+  }
+
+  // scopedId
+  if (scopeId) {
+    options._scopeId = 'data-v-' + scopeId
+  }
+
+  var hook
+  if (moduleIdentifier) { // server build
+    hook = function (context) {
+      // 2.3 injection
+      context =
+        context || // cached call
+        (this.$vnode && this.$vnode.ssrContext) || // stateful
+        (this.parent && this.parent.$vnode && this.parent.$vnode.ssrContext) // functional
+      // 2.2 with runInNewContext: true
+      if (!context && typeof __VUE_SSR_CONTEXT__ !== 'undefined') {
+        context = __VUE_SSR_CONTEXT__
+      }
+      // inject component styles
+      if (injectStyles) {
+        injectStyles.call(this, context)
+      }
+      // register component module identifier for async chunk inferrence
+      if (context && context._registeredComponents) {
+        context._registeredComponents.add(moduleIdentifier)
+      }
+    }
+    // used by ssr in case component is cached and beforeCreate
+    // never gets called
+    options._ssrRegister = hook
+  } else if (injectStyles) {
+    hook = shadowMode
+      ? function () { injectStyles.call(this, this.$root.$options.shadowRoot) }
+      : injectStyles
+  }
+
+  if (hook) {
+    if (options.functional) {
+      // for template-only hot-reload because in that case the render fn doesn't
+      // go through the normalizer
+      options._injectStyles = hook
+      // register for functioal component in vue file
+      var originalRender = options.render
+      options.render = function renderWithStyleInjection (h, context) {
+        hook.call(context)
+        return originalRender(h, context)
+      }
+    } else {
+      // inject component registration as beforeCreate hook
+      var existing = options.beforeCreate
+      options.beforeCreate = existing
+        ? [].concat(existing, hook)
+        : [hook]
+    }
+  }
+
+  return {
+    exports: scriptExports,
+    options: options
+  }
+}
+
+
+/***/ }),
+
+/***/ 2:
 /*!******************************************************************************************!*\
   !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js ***!
   \******************************************************************************************/
@@ -7458,7 +7569,30 @@ internalMixin(Vue);
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../webpack/buildin/global.js */ 3)))
 
 /***/ }),
-/* 3 */
+
+/***/ 21:
+/*!**********************************************************************!*\
+  !*** /Users/liuyilan/Documents/Uni-app/UniApp/static/mock/home.json ***!
+  \**********************************************************************/
+/*! exports provided: code, pageTitle, newsTitle, noticeText, searchKeyList, topNewsList, newsList, default */
+/***/ (function(module) {
+
+module.exports = {"code":"200","pageTitle":"热门日报","newsTitle":"今日大新闻","noticeText":"本期测试将截止到10月30日，给您带来不便，敬请谅解。","searchKeyList":[{"id":"1","words":"英雄联盟十周年"},{"id":"2","words":"足协退出中超公司"},{"id":"3","words":"墨西哥枪战"}],"topNewsList":[{"id":"1","rank":"1","title":"英雄联盟S9总决赛3DM专题","detail":"《英雄联盟》S9全球总决赛于10月在柏林正式打响，总决赛于11月10日在巴黎开战，3DM游戏网将为您带来这场赛事的全程战报。","hot":"19.2W","imgUrl":"http://pic2.52pk.com/files/191016/7815820_093423_3903.png","webUrl":"https://uniapp.dcloud.io/static/web-view.html"}],"newsList":[{"id":"2","rank":"2","title":"足协退出中超公司一事今年不会影响中超升降级，明年中超也不会扩军。","hot":"10.1W","imgUrl":"https://c1.hoopchina.com.cn/uploads/star/event/images/191016/1abbe64b658dc57cb67ea52ddfe4df9a92ddb260.png","webUrl":"https://uniapp.dcloud.io/static/web-view.html"},{"id":"3","rank":"3","title":"墨西哥西南部格雷罗州发生枪战，15人死亡。这是几天以来墨西哥爆发的第二次大规模杀戮事件。","hot":"8.1W","imgUrl":"http://img2015.zdface.com/20191016/3d828a833e1b462a1940e62c22babfb7.jpg","webUrl":"https://uniapp.dcloud.io/static/web-view.html"},{"id":"4","rank":"4","title":"《幸福三重奏》第二季要播出了,郎朗和老婆吉娜,要来参加了,这可能是大家见过最接地气的艺术家夫妻了。","hot":"7.2W","imgUrl":"http://img2015.zdface.com/20191016/23aed942bc4d543ae110b242919bc2e0.jpg","webUrl":"https://uniapp.dcloud.io/static/web-view.html"},{"id":"5","rank":"5","title":"“如果没有两弹一星,中国就没有现在这样的国际地位。","hot":"6.7W","imgUrl":"https://edu.online.sh.cn/education/gb/content/attachement/jpeg/site1/20191016/IMGd43d7e5f355652119676570.jpeg","webUrl":"https://uniapp.dcloud.io/static/web-view.html"}]};
+
+/***/ }),
+
+/***/ 28:
+/*!***************************************************************************!*\
+  !*** /Users/liuyilan/Documents/Uni-app/UniApp/static/mock/community.json ***!
+  \***************************************************************************/
+/*! exports provided: code, user_info, menu, communityInfo, default */
+/***/ (function(module) {
+
+module.exports = {"code":"200","user_info":{"level":-1,"nickname":"兜里没糖👏🧕🏻🍄","headimgurl":"https://wx.qlogo.cn/mmopen/vi_32/tLQWqiaNPNRbODNichQq4HWld1aCmXKEfcJrlHolTKDAiafZxvRzt4pCicwDGwTSoQVEFkW6UbTUngKQ9xpXrYAntA/132","coupon_num":0,"redpacket_num":0,"order_num":0},"menu":[{"icon":"","title":"红包专区"},{"icon":"","title":"每日福利"}],"communityInfo":{"comming_list":[{"name":"【青年路|Mr.Gluttony】138元抢原价538元双人餐！专业威士忌，让你醉上瘾！","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191030/1572432651543.png","id":"9441","price":"138.00","bottom_price":"138.00","cardprice":"135","vip_discount":"3.00","start_time":"1572490740","display_time_str":"今天 10:59","save_price":"3.00"}],"hot_list":{"id":"1","title":"今日热卖","sub_title":"好店爆款，人手一份","max_num":"0","more_link":"","sort":"2","status":"1","add_time":"1568689190","show_hot_rank":1,"form_list":[{"id":"242","type":"2","title":"【 合生汇|佟掌柜de飞行架】9.9元限时秒杀15元炸鸡架！鸡架神店！“风靡全北京”！","desc":"","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191024/1571890239662.gif","url":"/index.php?m=Index&c=act&a=act_info&fid=9092","url_h5":"","link_id":"9092","is_display":"1","sort":"0","add_time":"1571967589","module_id":"1","vip_auth":0,"price":"9.90","original_price":"15.00","cardprice":"8.8","views":"3479","f_count":198,"save_price":"1.1"},{"id":"244","type":"2","title":"【前门|圣麒麟星空艺术馆】39.9抢原价136元星空单人票！360°光影！​“手摘星辰”！","desc":"","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191024/1571907945139.gif","url":"/index.php?m=Index&c=act&a=act_info&fid=9112","url_h5":"","link_id":"9112","is_display":"1","sort":"0","add_time":"1571967666","module_id":"1","vip_auth":0,"price":"39.90","original_price":"136.00","cardprice":"36.6","views":"2440","f_count":91,"save_price":"3.0"},{"id":"245","type":"2","title":"【21店通用|圣梦亲体美肤生活馆】39.9元抢原价1620元美肤套餐！星级体验，限时秒杀！","desc":"","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191024/1571909644619.png","url":"/index.php?m=Index&c=act&a=act_info&fid=9115","url_h5":"","link_id":"9115","is_display":"1","sort":"0","add_time":"1571967828","module_id":"1","vip_auth":0,"price":"39.90","original_price":"1620.00","cardprice":"39","views":"4574","f_count":176,"save_price":"0.9"},{"id":"246","type":"2","title":"【三里屯|FanFan 芳芳餐厅】248元抢374元2-3人餐！高级网红西餐！地道不高冷！","desc":"","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191026/1572064329475.png","url":"/index.php?m=Index&c=act&a=act_info&fid=9219","url_h5":"","link_id":"9219","is_display":"1","sort":"0","add_time":"1572230432","module_id":"1","vip_auth":0,"price":"248.00","original_price":"374.00","cardprice":"238","views":"934","f_count":0,"save_price":"10.0"},{"id":"247","type":"2","title":"【 望京|ZZ·SOUFFLER芙甜】15.9元抢原价30元的“网红舒芙蕾”！风靡ins！","desc":"","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191028/1572245984850.gif","url":"/index.php?m=Index&c=act&a=act_info&fid=9292","url_h5":"","link_id":"9292","is_display":"1","sort":"0","add_time":"1572313802","module_id":"1","vip_auth":0,"price":"15.90","original_price":"30.00","cardprice":"14.4","views":"1051","f_count":44,"save_price":"1.5"},{"id":"248","type":"2","title":"【 望京|茶令】12.9元抢原价28元的“网红茶饮”！21款任选！刷爆朋友圈！","desc":"","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191028/1572258098390.gif","url":"/index.php?m=Index&c=act&a=act_info&fid=9298","url_h5":"","link_id":"9298","is_display":"1","sort":"0","add_time":"1572313820","module_id":"1","vip_auth":0,"price":"12.90","original_price":"28.00","cardprice":"11.6","views":"1184","f_count":59,"save_price":"1.3"},{"id":"249","type":"2","title":"【超豪华自助|王府井希尔顿酒店】188元抢354.2元酒店自助单人餐！海鲜不限量！吃到撑！","desc":"","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191029/1572313217981.gif","url":"/index.php?m=Index&c=act&a=act_info&fid=9344","url_h5":"","link_id":"9344","is_display":"1","sort":"0","add_time":"1572313832","module_id":"1","vip_auth":0,"price":"188.00","original_price":"354.20","cardprice":"185","views":"473","f_count":0,"save_price":"3.0"},{"id":"250","type":"2","title":"【通朝大街|老佛爷·铜炉蛙锅】99元抢原价285元双人餐！新鲜牛蛙现杀现做！肉欲满满！","desc":"","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191029/1572313607416.png","url":"/index.php?m=Index&c=act&a=act_info&fid=9343","url_h5":"","link_id":"9343","is_display":"1","sort":"1","add_time":"1572315325","module_id":"1","vip_auth":0,"price":"99.00","original_price":"285.00","cardprice":"90","views":"1232","f_count":12,"save_price":"9.0"},{"id":"239","type":"2","title":"【两店通用|三味缘牛蛙火锅】98元抢原价208元干锅牛蛙双人餐！肉欲爆棚！麻辣鲜香吃过瘾！","desc":"","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191022/1571723614349.gif","url":"/index.php?m=Index&c=act&a=act_info&fid=8972","url_h5":"","link_id":"8972","is_display":"1","sort":"2","add_time":"1571738609","module_id":"1","vip_auth":0,"price":"98.00","original_price":"208.00","cardprice":"95","views":"5575","f_count":81,"save_price":"3.0"},{"id":"243","type":"2","title":"【马家堡|蛋黄哥五星主厨餐厅】138元抢原价341元2-3人套！菜品超萌，主角居然是颗蛋！","desc":"","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191024/1571911723589.gif","url":"/index.php?m=Index&c=act&a=act_info&fid=9108","url_h5":"","link_id":"9108","is_display":"1","sort":"2","add_time":"1571967613","module_id":"1","vip_auth":0,"price":"138.00","original_price":"341.00","cardprice":"128","views":"4693","f_count":36,"save_price":"10.0"},{"id":"222","type":"2","title":"【三里屯|日食记】138元抢362元炭火火锅3~4人餐！牛板筋锅、羊肉锅2选1！人均30+","desc":"","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191014/1571052945682.png","url":"/index.php?m=Index&c=act&a=act_info&fid=8610","url_h5":"","link_id":"8610","is_display":"1","sort":"3","add_time":"1571110355","module_id":"1","vip_auth":0,"price":"138.00","original_price":"362.00","cardprice":"128","views":"9928","f_count":172,"save_price":"10.0"},{"id":"238","type":"2","title":"【十里堡|葱葱那年串串香火锅】128元抢原价299元串串香4人餐！人均32吃到撑！","desc":"","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191021/1571653030484.gif","url":"/index.php?m=Index&c=act&a=act_info&fid=8923","url_h5":"","link_id":"8923","is_display":"1","sort":"3","add_time":"1571737997","module_id":"1","vip_auth":0,"price":"128.00","original_price":"299.00","cardprice":"118","views":"5037","f_count":114,"save_price":"10.0"},{"id":"235","type":"2","title":"【双井|虾匠手抓小龙虾】118元抢原价335元套餐！大闸蟹+重庆辣子鸡！低至3.5折抢！","desc":"","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191021/1571643586408.png","url":"/index.php?m=Index&c=act&a=act_info&fid=8934","url_h5":"","link_id":"8934","is_display":"1","sort":"5","add_time":"1571710779","module_id":"1","vip_auth":0,"price":"118.00","original_price":"335.00","cardprice":"108","views":"3782","f_count":49,"save_price":"10.0"},{"id":"234","type":"2","title":"【望京|西南官话贵州私房菜】139元抢原价261元双人餐！超火酸汤锅来袭，吃到扶墙出！","desc":"","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191021/1571622658194.png","url":"/index.php?m=Index&c=act&a=act_info&fid=8880","url_h5":"","link_id":"8880","is_display":"1","sort":"6","add_time":"1571627251","module_id":"1","vip_auth":0,"price":"99.00","original_price":"261.00","cardprice":"89","views":"8167","f_count":141,"save_price":"10.0"}]},"recommend_list":{"id":"2","title":"新品推荐","sub_title":"新品好物，先到先得","max_num":"0","more_link":"","sort":"2","status":"1","add_time":"1568689190","show_hot_rank":0,"form_list":[{"id":"9092","cat_id":"80","type":"2","name":"【 合生汇|佟掌柜de飞行架】9.9元限时秒杀15元炸鸡架！鸡架神店！“风靡全北京”！","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191024/1571890239662.gif","tuijian":"0","start_time":"2019-10-25","end_time":"2019-10-31","price":"9.90","cardprice":"8.80","original_price":"15.00","vip_discount":"1.10","bottom_price":"9.90","kucun":833,"kucun_price":"0","tag_id":"3,6,74","zhibo_id":"","views":"2934","f_count":177,"need_card":"0","group_price":"0","group_level_price":"0","group":"0","vip_first_time":"0","status":"0","vip_auth":0,"has_discount":1,"tag_name":"好吃的","save_price":"1.10","free":0,"store_name":"佟掌柜de飞行架","distance":"25.4公里","area_name":""},{"id":"9108","cat_id":"59","type":"2","name":"【马家堡|蛋黄哥五星主厨餐厅】138元抢原价341元2-3人套！菜品超萌，主角居然是颗蛋！","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191024/1571911723589.gif","tuijian":"0","start_time":"2019-10-25","end_time":"2019-11-03","price":"138.00","cardprice":"128.00","original_price":"341.00","vip_discount":"10.00","bottom_price":"138.00","kucun":169,"kucun_price":"0","tag_id":"205","zhibo_id":"","views":"3807","f_count":26,"need_card":"0","group_price":"0","group_level_price":"0","group":"0","vip_first_time":"0","status":"0","vip_auth":0,"has_discount":1,"tag_name":"好吃的","save_price":"10.00","free":0,"store_name":"蛋黄哥五星主厨餐厅","distance":"24.2公里","area_name":""},{"id":"9298","cat_id":"48","type":"2","name":"【 望京|茶令】12.9元抢原价28元的“网红茶饮”！21款任选！刷爆朋友圈！","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191028/1572258098390.gif","tuijian":"0","start_time":"2019-10-29","end_time":"2019-11-04","price":"12.90","cardprice":"11.60","original_price":"28.00","vip_discount":"1.30","bottom_price":"12.90","kucun":1920,"kucun_price":"0","tag_id":"3,6,18","zhibo_id":"","views":"1379","f_count":80,"need_card":"0","group_price":"0","group_level_price":"0","group":"0","vip_first_time":"0","status":"0","vip_auth":0,"has_discount":1,"tag_name":"好吃的","save_price":"1.30","free":0,"store_name":"茶令(望京麒麟社店)","distance":"17.9公里","area_name":""},{"id":"9292","cat_id":"48","type":"2","name":"【 望京|ZZ·SOUFFLER芙甜】15.9元抢原价30元的“网红舒芙蕾”！风靡ins！","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191028/1572245984850.gif","tuijian":"0","start_time":"2019-10-29","end_time":"2019-11-04","price":"15.90","cardprice":"14.40","original_price":"30.00","vip_discount":"1.50","bottom_price":"15.90","kucun":1936,"kucun_price":"0","tag_id":"3,6,18,148","zhibo_id":"","views":"1474","f_count":64,"need_card":"0","group_price":"0","group_level_price":"0","group":"0","vip_first_time":"0","status":"0","vip_auth":0,"has_discount":1,"tag_name":"好吃的","save_price":"1.50","free":0,"store_name":"ZZ·SOUFFLER芙甜(麒麟社店)","distance":"17.9公里","area_name":""},{"id":"9219","cat_id":"40","type":"2","name":"【三里屯|FanFan 芳芳餐厅】248元抢374元2-3人餐！高级网红西餐！地道不高冷！","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191026/1572064329475.png","tuijian":"0","start_time":"2019-10-28","end_time":"2019-11-03","price":"248.00","cardprice":"238.00","original_price":"374.00","vip_discount":"10.00","bottom_price":"248.00","kucun":499,"kucun_price":"0","tag_id":"6,15,48,88,159","zhibo_id":"","views":"1609","f_count":1,"need_card":"0","group_price":"0","group_level_price":"0","group":"0","vip_first_time":"0","status":"0","vip_auth":0,"has_discount":1,"tag_name":"好吃的","save_price":"10.00","free":0,"store_name":"FanFan 芳芳餐厅","distance":"18.9公里","area_name":""}]}}};
+
+/***/ }),
+
+/***/ 3:
 /*!***********************************!*\
   !*** (webpack)/buildin/global.js ***!
   \***********************************/
@@ -7488,7 +7622,8 @@ module.exports = g;
 
 
 /***/ }),
-/* 4 */
+
+/***/ 4:
 /*!***********************************************************!*\
   !*** /Users/liuyilan/Documents/Uni-app/UniApp/pages.json ***!
   \***********************************************************/
@@ -7499,7 +7634,8 @@ module.exports = g;
 
 
 /***/ }),
-/* 5 */
+
+/***/ 5:
 /*!*******************************************************!*\
   !*** ./node_modules/@dcloudio/uni-stat/dist/index.js ***!
   \*******************************************************/
@@ -7593,7 +7729,10 @@ var getPlatformName = function getPlatformName() {
 var getPackName = function getPackName() {
   var packName = '';
   if (getPlatformName() === 'wx' || getPlatformName() === 'qq') {
-    packName = uni.getAccountInfoSync().miniProgram.appId || '';
+    // 兼容微信小程序低版本基础库
+    if (uni.canIUse('getAccountInfoSync')) {
+      packName = uni.getAccountInfoSync().miniProgram.appId || '';
+    }
   }
   return packName;
 };
@@ -8205,7 +8344,7 @@ Stat = /*#__PURE__*/function (_Util) {_inherits(Stat, _Util);_createClass(Stat, 
     _this6 = _possibleConstructorReturn(this, _getPrototypeOf(Stat).call(this));
     _this6.instance = null;
     // 注册拦截器
-    if (typeof uni.addInterceptor === 'function') {
+    if (typeof uni.addInterceptor === 'function' && "development" !== 'development') {
       _this6.addInterceptorInit();
       _this6.interceptLogin();
       _this6.interceptShare(true);
@@ -8382,17 +8521,30 @@ main();
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 6 */
+
+/***/ 53:
+/*!**********************************************************************!*\
+  !*** /Users/liuyilan/Documents/Uni-app/UniApp/static/mock/boon.json ***!
+  \**********************************************************************/
+/*! exports provided: code, unstart_list, list, shop_msg, shop_join_tag, share, user_auth_tag, default */
+/***/ (function(module) {
+
+module.exports = {"code":1,"unstart_list":"","list":[{"id":"122","title":"【霸王餐|Mr.Gluttony】价值538元双人餐！专业威士忌，让你醉上瘾！共5份！","start_time":"10月31日 10:00","end_time":"11月01日 10:00","total_kucun":"5","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191030/1572433227542.png","price":"538.00","type_id":"2","status":1},{"id":"19","title":"叁口煮·酒都老火锅霸王餐","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191030/1572419187379.png","start_time":"10月31日 10:00","end_time":"11月04日 10:00","price":"182","f_count":"0","total_kucun":5,"type_id":"3","status":1},{"id":"18","title":"花火火锅双人霸王餐25份","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191025/1571990547469.png","start_time":"10月27日 10:00","end_time":"10月31日 10:00","price":"288","f_count":"25","total_kucun":25,"type_id":"3","status":0},{"id":"120","title":"【霸王餐|集·酒馆Agora Bar】价值238元套餐！电影命名的酒，共5份！","start_time":"10月26日 10:00","end_time":"10月27日 10:00","total_kucun":"5","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191025/1571997647775.png","price":"238.00","type_id":"2","status":0},{"id":"119","title":"【21店通用|圣梦亲体美肤生活馆】价值1620元美肤套餐！N+好评！共5份！\t","start_time":"10月25日 10:00","end_time":"10月26日 10:00","total_kucun":"5","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191024/1571913345542.png","price":"1620.00","type_id":"2","status":0},{"id":"17","title":"壹处小馆霸王餐5份","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191022/1571737026244.png","start_time":"10月23日 10:00","end_time":"10月27日 10:00","price":"224","f_count":"5","total_kucun":5,"type_id":"3","status":0},{"id":"16","title":"谷田有蛙双人霸王餐10份","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191018/1571388349994.png","start_time":"10月19日 10:00","end_time":"10月23日 10:00","price":"251","f_count":"10","total_kucun":10,"type_id":"3","status":0},{"id":"118","title":"【鼓楼|花火火锅】价值288元双人餐！鼓楼浪漫火锅店，在花丛里吃火锅~共5份！","start_time":"10月16日 10:00","end_time":"10月17日 10:00","total_kucun":"5","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191015/1571135112878.png","price":"288.00","type_id":"2","status":0},{"id":"117","title":"【大望路|啡粉之享·海鲜火锅】价值278元双人海鲜火锅套餐！新鲜海鲜现吃现捞！共5份！","start_time":"10月15日 10:00","end_time":"10月16日 10:00","total_kucun":"5","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191014/1571048451507.png","price":"278.00","type_id":"2","status":0}],"shop_msg":{"title":"商家申请入驻好店","info":"如果您是北京优质吃喝玩乐类商户，想入驻到\"北京有点牛\"平台，详情可拨打电话或者微信咨询：","tel":"15011254780","wx":"bjydnxx0516","logo":"https://upyun.ydnewmedia.com/urm_huodong/20190514/1557818731141.png"},"shop_join_tag":1,"share":{"share_name":"北京有点牛10月31日福利，快来免费领取","share_img":"https://ydn-fanscard.oss-cn-shenzhen.aliyuncs.com/mini/img/share_fuli.png","uid":"308181"},"user_auth_tag":0};
+
+/***/ }),
+
+/***/ 6:
 /*!******************************************************!*\
   !*** ./node_modules/@dcloudio/uni-stat/package.json ***!
   \******************************************************/
 /*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, bugs, bundleDependencies, deprecated, description, devDependencies, files, gitHead, homepage, license, main, name, repository, scripts, version, default */
 /***/ (function(module) {
 
-module.exports = {"_from":"@dcloudio/uni-stat@next","_id":"@dcloudio/uni-stat@2.0.0-23320190923002","_inBundle":false,"_integrity":"sha512-MnftsvgOac3q1FCOBPzivbFn8GNQFo7D2DY325HeEZyFCWgx5GEwHpGYjT1PQU6v7DaDn0ruxa3ObdpUIYbmZw==","_location":"/@dcloudio/uni-stat","_phantomChildren":{},"_requested":{"type":"tag","registry":true,"raw":"@dcloudio/uni-stat@next","name":"@dcloudio/uni-stat","escapedName":"@dcloudio%2funi-stat","scope":"@dcloudio","rawSpec":"next","saveSpec":null,"fetchSpec":"next"},"_requiredBy":["#USER","/","/@dcloudio/vue-cli-plugin-uni"],"_resolved":"https://registry.npmjs.org/@dcloudio/uni-stat/-/uni-stat-2.0.0-23320190923002.tgz","_shasum":"0c400c140ca0b3c05f52d25f11583cf05a0c4e9a","_spec":"@dcloudio/uni-stat@next","_where":"/Users/fxy/Documents/DCloud/HbuilderX-plugins/release/uniapp-cli","author":"","bugs":{"url":"https://github.com/dcloudio/uni-app/issues"},"bundleDependencies":false,"deprecated":false,"description":"","devDependencies":{"@babel/core":"^7.5.5","@babel/preset-env":"^7.5.5","eslint":"^6.1.0","rollup":"^1.19.3","rollup-plugin-babel":"^4.3.3","rollup-plugin-clear":"^2.0.7","rollup-plugin-commonjs":"^10.0.2","rollup-plugin-copy":"^3.1.0","rollup-plugin-eslint":"^7.0.0","rollup-plugin-json":"^4.0.0","rollup-plugin-node-resolve":"^5.2.0","rollup-plugin-replace":"^2.2.0","rollup-plugin-uglify":"^6.0.2"},"files":["dist","package.json","LICENSE"],"gitHead":"fed4c73fb9142a1b277dd79313939cad90693d3e","homepage":"https://github.com/dcloudio/uni-app#readme","license":"Apache-2.0","main":"dist/index.js","name":"@dcloudio/uni-stat","repository":{"type":"git","url":"git+https://github.com/dcloudio/uni-app.git","directory":"packages/uni-stat"},"scripts":{"build":"NODE_ENV=production rollup -c rollup.config.js","dev":"NODE_ENV=development rollup -w -c rollup.config.js"},"version":"2.0.0-23320190923002"};
+module.exports = {"_from":"@dcloudio/uni-stat@next","_id":"@dcloudio/uni-stat@2.0.0-23720191024001","_inBundle":false,"_integrity":"sha512-vJEk493Vdb8KueNzR2otzDi23rfyRcQBo/t1R41MwNGPk+AUB94gh10+HVLo98DRcvMzkuVofz3KXTAfEx24iw==","_location":"/@dcloudio/uni-stat","_phantomChildren":{},"_requested":{"type":"tag","registry":true,"raw":"@dcloudio/uni-stat@next","name":"@dcloudio/uni-stat","escapedName":"@dcloudio%2funi-stat","scope":"@dcloudio","rawSpec":"next","saveSpec":null,"fetchSpec":"next"},"_requiredBy":["#USER","/","/@dcloudio/vue-cli-plugin-uni"],"_resolved":"https://registry.npmjs.org/@dcloudio/uni-stat/-/uni-stat-2.0.0-23720191024001.tgz","_shasum":"18272814446a9bc6053bc92666ec7064a1767588","_spec":"@dcloudio/uni-stat@next","_where":"/Users/fxy/Documents/DCloud/HbuilderX-plugins/release/uniapp-cli","author":"","bugs":{"url":"https://github.com/dcloudio/uni-app/issues"},"bundleDependencies":false,"deprecated":false,"description":"","devDependencies":{"@babel/core":"^7.5.5","@babel/preset-env":"^7.5.5","eslint":"^6.1.0","rollup":"^1.19.3","rollup-plugin-babel":"^4.3.3","rollup-plugin-clear":"^2.0.7","rollup-plugin-commonjs":"^10.0.2","rollup-plugin-copy":"^3.1.0","rollup-plugin-eslint":"^7.0.0","rollup-plugin-json":"^4.0.0","rollup-plugin-node-resolve":"^5.2.0","rollup-plugin-replace":"^2.2.0","rollup-plugin-uglify":"^6.0.2"},"files":["dist","package.json","LICENSE"],"gitHead":"a725c04ef762e5df78a9a69d140c2666e0de05fc","homepage":"https://github.com/dcloudio/uni-app#readme","license":"Apache-2.0","main":"dist/index.js","name":"@dcloudio/uni-stat","repository":{"type":"git","url":"git+https://github.com/dcloudio/uni-app.git","directory":"packages/uni-stat"},"scripts":{"build":"NODE_ENV=production rollup -c rollup.config.js","dev":"NODE_ENV=development rollup -w -c rollup.config.js"},"version":"2.0.0-23720191024001"};
 
 /***/ }),
-/* 7 */
+
+/***/ 7:
 /*!****************************************************************************!*\
   !*** /Users/liuyilan/Documents/Uni-app/UniApp/pages.json?{"type":"style"} ***!
   \****************************************************************************/
@@ -8400,10 +8552,11 @@ module.exports = {"_from":"@dcloudio/uni-stat@next","_id":"@dcloudio/uni-stat@2.
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = { "pages": { "pages/home/home": { "navigationBarTitleText": "首页", "enablePullDownRefresh": true }, "pages/community/community": { "enablePullDownRefresh": true }, "pages/discover/discover": { "enablePullDownRefresh": true }, "pages/detail/detail": {} }, "globalStyle": { "navigationStyle": "custom", "navigationBarTextStyle": "black", "navigationBarTitleText": "今日早间", "navigationBarBackgroundColor": "#FFFFFF", "backgroundColor": "#FFFFFF" } };exports.default = _default;
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = { "pages": { "pages/home/home": { "navigationBarTitleText": "首页", "enablePullDownRefresh": true }, "pages/community/community": { "enablePullDownRefresh": true }, "pages/discover/discover": { "enablePullDownRefresh": true }, "pages/detail/detail": {}, "pages/search/search": {}, "pages/boon/boon": {} }, "globalStyle": { "navigationStyle": "default", "navigationBarTextStyle": "black", "navigationBarTitleText": "今日早间", "navigationBarBackgroundColor": "#FFFFFF", "backgroundColor": "#FFFFFF" } };exports.default = _default;
 
 /***/ }),
-/* 8 */
+
+/***/ 8:
 /*!***************************************************************************!*\
   !*** /Users/liuyilan/Documents/Uni-app/UniApp/pages.json?{"type":"stat"} ***!
   \***************************************************************************/
@@ -8413,117 +8566,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = { "appid": "__UNI__441E0AC" };exports.default = _default;
 
-/***/ }),
-/* 9 */,
-/* 10 */,
-/* 11 */,
-/* 12 */,
-/* 13 */,
-/* 14 */
-/*!********************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/runtime/componentNormalizer.js ***!
-  \********************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return normalizeComponent; });
-/* globals __VUE_SSR_CONTEXT__ */
-
-// IMPORTANT: Do NOT use ES2015 features in this file (except for modules).
-// This module is a runtime utility for cleaner component module output and will
-// be included in the final webpack user bundle.
-
-function normalizeComponent (
-  scriptExports,
-  render,
-  staticRenderFns,
-  functionalTemplate,
-  injectStyles,
-  scopeId,
-  moduleIdentifier, /* server only */
-  shadowMode /* vue-cli only */
-) {
-  // Vue.extend constructor export interop
-  var options = typeof scriptExports === 'function'
-    ? scriptExports.options
-    : scriptExports
-
-  // render functions
-  if (render) {
-    options.render = render
-    options.staticRenderFns = staticRenderFns
-    options._compiled = true
-  }
-
-  // functional template
-  if (functionalTemplate) {
-    options.functional = true
-  }
-
-  // scopedId
-  if (scopeId) {
-    options._scopeId = 'data-v-' + scopeId
-  }
-
-  var hook
-  if (moduleIdentifier) { // server build
-    hook = function (context) {
-      // 2.3 injection
-      context =
-        context || // cached call
-        (this.$vnode && this.$vnode.ssrContext) || // stateful
-        (this.parent && this.parent.$vnode && this.parent.$vnode.ssrContext) // functional
-      // 2.2 with runInNewContext: true
-      if (!context && typeof __VUE_SSR_CONTEXT__ !== 'undefined') {
-        context = __VUE_SSR_CONTEXT__
-      }
-      // inject component styles
-      if (injectStyles) {
-        injectStyles.call(this, context)
-      }
-      // register component module identifier for async chunk inferrence
-      if (context && context._registeredComponents) {
-        context._registeredComponents.add(moduleIdentifier)
-      }
-    }
-    // used by ssr in case component is cached and beforeCreate
-    // never gets called
-    options._ssrRegister = hook
-  } else if (injectStyles) {
-    hook = shadowMode
-      ? function () { injectStyles.call(this, this.$root.$options.shadowRoot) }
-      : injectStyles
-  }
-
-  if (hook) {
-    if (options.functional) {
-      // for template-only hot-reload because in that case the render fn doesn't
-      // go through the normalizer
-      options._injectStyles = hook
-      // register for functioal component in vue file
-      var originalRender = options.render
-      options.render = function renderWithStyleInjection (h, context) {
-        hook.call(context)
-        return originalRender(h, context)
-      }
-    } else {
-      // inject component registration as beforeCreate hook
-      var existing = options.beforeCreate
-      options.beforeCreate = existing
-        ? [].concat(existing, hook)
-        : [hook]
-    }
-  }
-
-  return {
-    exports: scriptExports,
-    options: options
-  }
-}
-
-
 /***/ })
-]]);
+
+}]);
 //# sourceMappingURL=../../.sourcemap/mp-weixin/common/vendor.js.map

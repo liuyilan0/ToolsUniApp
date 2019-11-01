@@ -8,7 +8,7 @@
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 10rpx 20rpx 20rpx 20rpx;
+  margin: 10rpx 20rpx 4rpx 20rpx;
   border-bottom: 1rpx solid #c0c0c0;
 }
 .container .header-view.data-v-67383764 {

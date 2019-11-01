@@ -26,7 +26,7 @@
         class="uni-noticebar__content-text">
         <view
           :id="elId"
-          :style="{ animation: animation, '-webkit-animation': animation }"
+          :style="{ animation: animation, '-webkit-animation': animation, '-moz-animation': animation, '-o-animation': animation }"
           class="uni-noticebar__content-inner">{{ text }}</view>
       </view>
       <view
@@ -48,7 +48,7 @@
 <script>
 import uniIcons from '../uni-icons/uni-icons.vue'
 export default {
-  name: 'UniNoticeBar',
+  name: 'uniNoticeBar',
   components: {
     uniIcons
   },

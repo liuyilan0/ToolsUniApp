@@ -18,12 +18,11 @@
   -webkit-justify-content: flex-start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  margin: 15rpx 20rpx;
-  border-bottom: 1rpx solid #c0c0c0;
+  margin: 20rpx 20rpx 0 20rpx;
 }
 .container .list .rank-view.data-v-13bd6f44 {
   font-size: 26rpx;
-  color: #f00;
+  color: #000;
   margin-top: 10rpx;
 }
 .container .list .intro-view.data-v-13bd6f44 {

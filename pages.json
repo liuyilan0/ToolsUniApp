@@ -18,7 +18,11 @@
 			}
 		},{
             "path" : "pages/detail/detail"
-        }
+        },{
+            "path" : "pages/search/search"
+        }, {
+			"path" : "pages/boon/boon"
+		}
     ],
 	"tabBar": {
 		"list": [{
@@ -45,7 +49,7 @@
 		"selectedColor":"#000"
 	},
 	"globalStyle": {
-		"navigationStyle":"custom",
+		"navigationStyle":"default",
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "今日早间",
 		"navigationBarBackgroundColor": "#FFFFFF",

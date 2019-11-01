@@ -2,10 +2,6 @@
 	export default {
 		onLaunch: function() {
 			console.log('App Launch')
-			
-			// wx.cloud.init({
-			//   env: 'dev'
-			// })
 		},
 		onShow: function() {
 			console.log('App Show')
@@ -18,4 +14,5 @@
 
 <style>
 	/*每个页面公共css */
+	@import url("common/css/common.css");
 </style>
