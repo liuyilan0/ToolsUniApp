@@ -4,8 +4,21 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": false,
-		"postcss": false
+		"urlCheck": true,
+		"es6": true,
+		"postcss": false,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"autoAudits": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.7.0",
@@ -35,8 +48,8 @@
 			"list": [
 				{
 					"id": -1,
-					"name": "pages/community/community",
-					"pathName": "pages/community/community",
+					"name": "pages/discover/discover",
+					"pathName": "pages/discover/discover",
 					"scene": null
 				}
 			]

@@ -1,5 +1,8 @@
 <script>
 	export default {
+		globalData: {
+			qqmapsdkKey: 'UPKBZ-37IKW-Z4MRK-RDA4Y-M2OAS-24BLU'  // qqmapKey
+		},
 		onLaunch: function() {
 			console.log('App Launch')
 		},

@@ -16,11 +16,11 @@
 .container .user_info.data-v-5b0d222d {
   width: 60%;
 }
-.container .user_info .name_info.data-v-5b0d222d {
+.container .name_info.data-v-5b0d222d {
   margin: 20rpx 0;
   font-size: 34rpx;
 }
-.container .user_info .account_info.data-v-5b0d222d {
+.container .account_info.data-v-5b0d222d {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -31,7 +31,7 @@
           justify-content: space-between;
   margin: 30rpx 0;
 }
-.container .user_info .account_info .account_item.data-v-5b0d222d {
+.container .account_info .account_item.data-v-5b0d222d {
   font-weight: 400;
   font-size: 26rpx;
   font-family: 'KaiTi';

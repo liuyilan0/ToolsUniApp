@@ -1,4 +1,7 @@
 {
   "enablePullDownRefresh": true,
-  "usingComponents": {}
+  "usingComponents": {
+    "discover-item": "/pages/discover/components/discoverItem",
+    "discover-publish-type": "/pages/discover/components/discoverPublishType"
+  }
 }

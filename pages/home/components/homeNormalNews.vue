@@ -1,7 +1,7 @@
 <template>
 	<view class="container">
 		<block v-for="(item, index) of newsList" :key='index'>
-			<navigator :url='"/pages/detail/detail?id="+item.id+"&webUrl="+item.webUrl'>
+			<!-- <navigator :url='"/pages/detail/detail?id="+item.id+"&webUrl="+item.webUrl'> -->
 				<view class="list" :style="(index<newsList.length-1) ? listStyle: ''">
 					<view class="rank-view" :style="(index<2) ? rankStyle: ''">
 					{{item.rank}}
@@ -14,7 +14,7 @@
 						<image class="image-view" :src="item.imgUrl"></image>
 					</view>
 				</view>
-			</navigator>
+			<!-- </navigator> -->
 		</block>
 	</view>
 </template>

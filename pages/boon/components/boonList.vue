@@ -17,7 +17,7 @@
 							<text>{{item.price}}</text>
 							<text>元</text>
 						</view>
-						<view class="buyBtn" @click="boonClick">免费抽奖</view>
+						<!-- <view class="buyBtn" @click="boonClick">免费抽奖</view> -->
 					</view>
 				</view>
 			</view>

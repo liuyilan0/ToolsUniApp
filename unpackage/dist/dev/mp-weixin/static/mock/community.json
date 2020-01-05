@@ -2,8 +2,8 @@
 	"code": "200",
 	"user_info": {
 		"level": -1,
-		"nickname": "兜里没糖👏🧕🏻🍄",
-		"headimgurl": "https://wx.qlogo.cn/mmopen/vi_32/tLQWqiaNPNRbODNichQq4HWld1aCmXKEfcJrlHolTKDAiafZxvRzt4pCicwDGwTSoQVEFkW6UbTUngKQ9xpXrYAntA/132",
+		"nickname": "欢迎您",
+		"headimgurl": "https://wx.qlogo.cn/mmhead/zB34mkOxrkPSjKghibAX0ZPoQ93Z2ZRR7z6b3mVhB7O4/132",
 		"coupon_num": 0,
 		"redpacket_num": 0,
 		"order_num": 0
@@ -32,7 +32,7 @@
 		}],
 		"hot_list": {
 			"id": "1",
-			"title": "今日热卖",
+			"title": "今日吃点",
 			"sub_title": "好店爆款，人手一份",
 			"max_num": "0",
 			"more_link": "",

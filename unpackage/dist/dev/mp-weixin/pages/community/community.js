@@ -120,7 +120,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;
 
 
 
@@ -136,7 +136,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 
 
-var _community = _interopRequireDefault(__webpack_require__(/*! @/static/mock/community.json */ 28));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var CommunityUserInfo = function CommunityUserInfo() {return __webpack_require__.e(/*! import() | pages/community/components/communityUserInfo */ "pages/community/components/communityUserInfo").then(__webpack_require__.bind(null, /*! pages/community/components/communityUserInfo.vue */ 112));};var CommunityMenu = function CommunityMenu() {return __webpack_require__.e(/*! import() | pages/community/components/communityMenu */ "pages/community/components/communityMenu").then(__webpack_require__.bind(null, /*! pages/community/components/communityMenu.vue */ 119));};var CommunityComming = function CommunityComming() {return __webpack_require__.e(/*! import() | pages/community/components/communityComming */ "pages/community/components/communityComming").then(__webpack_require__.bind(null, /*! pages/community/components/communityComming.vue */ 126));};var CommunityHot = function CommunityHot() {return __webpack_require__.e(/*! import() | pages/community/components/communityHot */ "pages/community/components/communityHot").then(__webpack_require__.bind(null, /*! pages/community/components/communityHot.vue */ 133));};var CommunityRecommend = function CommunityRecommend() {return __webpack_require__.e(/*! import() | pages/community/components/communityRecommend */ "pages/community/components/communityRecommend").then(__webpack_require__.bind(null, /*! pages/community/components/communityRecommend.vue */ 140));};var _default =
+var _community = _interopRequireDefault(__webpack_require__(/*! @/static/mock/community.json */ 28));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var CommunityUserInfo = function CommunityUserInfo() {return __webpack_require__.e(/*! import() | pages/community/components/communityUserInfo */ "pages/community/components/communityUserInfo").then(__webpack_require__.bind(null, /*! pages/community/components/communityUserInfo.vue */ 115));};var CommunityMenu = function CommunityMenu() {return __webpack_require__.e(/*! import() | pages/community/components/communityMenu */ "pages/community/components/communityMenu").then(__webpack_require__.bind(null, /*! pages/community/components/communityMenu.vue */ 122));};var CommunityComming = function CommunityComming() {return __webpack_require__.e(/*! import() | pages/community/components/communityComming */ "pages/community/components/communityComming").then(__webpack_require__.bind(null, /*! pages/community/components/communityComming.vue */ 129));};var CommunityHot = function CommunityHot() {return __webpack_require__.e(/*! import() | pages/community/components/communityHot */ "pages/community/components/communityHot").then(__webpack_require__.bind(null, /*! pages/community/components/communityHot.vue */ 136));};var CommunityRecommend = function CommunityRecommend() {return __webpack_require__.e(/*! import() | pages/community/components/communityRecommend */ "pages/community/components/communityRecommend").then(__webpack_require__.bind(null, /*! pages/community/components/communityRecommend.vue */ 143));};var _default =
 {
   data: function data() {
     return {
@@ -167,7 +167,11 @@ var _community = _interopRequireDefault(__webpack_require__(/*! @/static/mock/co
 
     // 模拟数据
     console.log(_community.default);
+  },
+  onPullDownRefresh: function onPullDownRefresh() {
+    uni.stopPullDownRefresh();
   } };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ })
 

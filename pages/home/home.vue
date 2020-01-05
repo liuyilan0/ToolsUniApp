@@ -1,13 +1,5 @@
 <template>
 	<view>
-		<!-- <home-status-bar></home-status-bar>
-		<home-nav-bar>
-			 <view slot="left">
-				 <icon type="contact" size="28"></icon>
-			 </view>
-			 <view>首页</view>
-			 <view slot="right"></view>
-		</home-nav-bar> -->
 		<home-notice-bar :noticeText="homeData.noticeText"></home-notice-bar>
 		<home-search :searchKeyListProp="homeData.searchKeyList" @clickSearch="searchClick"></home-search>
 		<home-header :pageTitle="homeData.pageTitle"></home-header>
@@ -41,9 +33,9 @@
 			},
 			// 点击搜索框触发
 			searchClick() {
-				uni.navigateTo({
-					url: '../search/search'
-				})
+				// uni.navigateTo({
+				// 	url: '../search/search'
+				// })
 			}
 		},
 		components: {
@@ -66,6 +58,9 @@
 			//     })
 			
 			// console.log(homeData)
+		},
+		onPullDownRefresh() {
+			uni.stopPullDownRefresh()
 		}
 	}
 </script>

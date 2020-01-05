@@ -7577,7 +7577,18 @@ internalMixin(Vue);
 /*! exports provided: code, pageTitle, newsTitle, noticeText, searchKeyList, topNewsList, newsList, default */
 /***/ (function(module) {
 
-module.exports = {"code":"200","pageTitle":"热门日报","newsTitle":"今日大新闻","noticeText":"本期测试将截止到10月30日，给您带来不便，敬请谅解。","searchKeyList":[{"id":"1","words":"英雄联盟十周年"},{"id":"2","words":"足协退出中超公司"},{"id":"3","words":"墨西哥枪战"}],"topNewsList":[{"id":"1","rank":"1","title":"英雄联盟S9总决赛3DM专题","detail":"《英雄联盟》S9全球总决赛于10月在柏林正式打响，总决赛于11月10日在巴黎开战，3DM游戏网将为您带来这场赛事的全程战报。","hot":"19.2W","imgUrl":"http://pic2.52pk.com/files/191016/7815820_093423_3903.png","webUrl":"https://uniapp.dcloud.io/static/web-view.html"}],"newsList":[{"id":"2","rank":"2","title":"足协退出中超公司一事今年不会影响中超升降级，明年中超也不会扩军。","hot":"10.1W","imgUrl":"https://c1.hoopchina.com.cn/uploads/star/event/images/191016/1abbe64b658dc57cb67ea52ddfe4df9a92ddb260.png","webUrl":"https://uniapp.dcloud.io/static/web-view.html"},{"id":"3","rank":"3","title":"墨西哥西南部格雷罗州发生枪战，15人死亡。这是几天以来墨西哥爆发的第二次大规模杀戮事件。","hot":"8.1W","imgUrl":"http://img2015.zdface.com/20191016/3d828a833e1b462a1940e62c22babfb7.jpg","webUrl":"https://uniapp.dcloud.io/static/web-view.html"},{"id":"4","rank":"4","title":"《幸福三重奏》第二季要播出了,郎朗和老婆吉娜,要来参加了,这可能是大家见过最接地气的艺术家夫妻了。","hot":"7.2W","imgUrl":"http://img2015.zdface.com/20191016/23aed942bc4d543ae110b242919bc2e0.jpg","webUrl":"https://uniapp.dcloud.io/static/web-view.html"},{"id":"5","rank":"5","title":"“如果没有两弹一星,中国就没有现在这样的国际地位。","hot":"6.7W","imgUrl":"https://edu.online.sh.cn/education/gb/content/attachement/jpeg/site1/20191016/IMGd43d7e5f355652119676570.jpeg","webUrl":"https://uniapp.dcloud.io/static/web-view.html"}]};
+module.exports = {"code":"200","pageTitle":"热门沸点","newsTitle":"今日看点","noticeText":"您如果有什么好的建议，可以联系我们，我们将提供更好的服务。","searchKeyList":[{"id":"1","words":"第二届中国国际进口博览会在上海正式开幕"},{"id":"2","words":"滴滴顺风车重新上线"},{"id":"3","words":"我国正式启动(6G)研发工作"}],"topNewsList":[{"id":"1","rank":"1","title":"第二届中国国际进口博览会在上海正式开幕","detail":"这座国际化大都市再次迎来了五湖四海的来宾。3000多家参展企业齐聚国家会展中心(上海) ，带来大批新产品、新技术、新服务。","hot":"19.2W","imgUrl":"http://img2015.zdface.com/20191016/3d828a833e1b462a1940e62c22babfb7.jpg","webUrl":"https://uniapp.dcloud.io/static/web-view.html"}],"newsList":[{"id":"2","rank":"2","title":"✦ 滴滴顺风车重新上线，11月20日起北京等7城试运营","hot":"10.1W","imgUrl":"","webUrl":"https://uniapp.dcloud.io/static/web-view.html"},{"id":"3","rank":"3","title":"✦ 科技部：我国正式启动第六代移动通信技术(6G)研发工作","hot":"8.1W","imgUrl":"http://img2015.zdface.com/20191016/3d828a833e1b462a1940e62c22babfb7.jpg","webUrl":"https://uniapp.dcloud.io/static/web-view.html"},{"id":"4","rank":"4","title":"✦ 国美与三星签订50亿元采购协议，就商品差异化定制战略合作","hot":"4.2W","imgUrl":"","webUrl":"https://uniapp.dcloud.io/static/web-view.html"},{"id":"5","rank":"5","title":"✦ 今日分享研报：亿欧智库发布《2019消费金融创新模式研究报告》","hot":"3.2W","imgUrl":"","webUrl":"https://uniapp.dcloud.io/static/web-view.html"}]};
+
+/***/ }),
+
+/***/ 222:
+/*!**************************************************************************!*\
+  !*** /Users/liuyilan/Documents/Uni-app/UniApp/static/mock/discover.json ***!
+  \**************************************************************************/
+/*! exports provided: result, message, status, default */
+/***/ (function(module) {
+
+module.exports = {"result":{"data":[{"id":315946,"typeId":17,"typeName":"趣闻趣味","title":null,"content":"<p>今天去面试了。面试官递给了我一个笔记本电脑。“来，试着把这个卖给我”于是我就把本本夹在腋下，走出大厦，骑着我的电动车回家去了。最后，他还是给我来电话了。“马上把电脑送回来！”“给我2000块，它就是你的了”。</p>","covers":[],"digest":null,"userId":100965,"nickName":"海淀彭于晏","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJmqNH4jj0Z9wqgtcPCevocibxyWDGuibwLzWVSnHhdibgiaxwPTJM1WtG3hpRXUHKNvCEFRCO8YJw3Eg/132","areaName":"海淀区","readCount":1997,"commentCount":0,"praiseCount":10,"shareCount":12,"datetime":"11-08","source":null,"publishAddress":"","tagUrl":null,"postfix":null,"phone":"","encourageReward":0,"kind":2,"hotTag":false,"praises":{"data":[{"avatar_url":"https://wx.qlogo.cn/mmhead/lqGdlbDIJFXttzibMia6XdNZ5LnszT1DicPJgsJbCZCic8w/132","nick_name":"张品治","userId":57222,"flower":1},{"avatar_url":"https://wx.qlogo.cn/mmhead/g9lhfAVmJQa1jE6FB6OXxP9g54MFibIFszaEfQzwSMlE/132","nick_name":"杨彦君","userId":56343,"flower":1},{"avatar_url":"https://wx.qlogo.cn/mmhead/q6ZRLbkmrAbO4dldEjicPbJKRIP9bSWg5XicgKNW9ib7Tg/132","nick_name":"刘明秀","userId":58040,"flower":1},{"avatar_url":"https://wx.qlogo.cn/mmhead/zB34mkOxrkPSjKghibAX0ZPoQ93Z2ZRR7z6b3mVhB7O4/132","nick_name":"白柏宇","userId":56329,"flower":1},{"avatar_url":"https://zhongshi-user-avatar.oss-cn-beijing.aliyuncs.com/18332011.png?433421","nick_name":"海洋","userId":14699,"flower":1}],"totalCount":10,"currentUserPraised":false}},{"id":150052,"typeId":16,"typeName":"转手卖","title":"","content":"<p>因家中有事，现出手二手自行车一辆，如有需要，请电话联系我</p>","covers":[],"digest":null,"userId":12059,"nickName":"陌影","avatarUrl":"http://zhongshi-user-avatar.oss-cn-beijing.aliyuncs.com/70152275cb6244ecbc2ca8fa65e299aa.jpg","areaName":"海淀区","readCount":4578,"commentCount":0,"praiseCount":16,"shareCount":78,"datetime":"11-10","source":null,"publishAddress":null,"tagUrl":null,"postfix":null,"phone":"13718997836","encourageReward":0,"kind":2,"hotTag":false,"praises":{"data":[{"avatar_url":"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJw0Fba3VEcYyS8LUUPTA8M7Sn6T1YgCzKmVt51eWWibI8pGySVlRogiahQWmsTpYOA3De8Vicr74BHQ/132","nick_name":"G.","userId":102075,"flower":1},{"avatar_url":"https://wx.qlogo.cn/mmhead/qk2IaLRaphRv1TgSVZ7JruibxBCYJOuA12CWKshXwCxw/132","nick_name":"袁富毓","userId":56962,"flower":1},{"avatar_url":"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIzMPP5RnrxaibxiaVkOQS4BkL7kXiaMjKy6SfMibLzBFpibichavUWt93ea71KTm3WFyRB3meWBlMibMCyg/132","nick_name":"爱是你我","userId":67508,"flower":1},{"avatar_url":"https://wx.qlogo.cn/mmhead/jd2wtrZXCVC9ZVpRCibh86iaoOEWfHlKiasuKl0TP1BrXU/132","nick_name":"邓富勋","userId":78081,"flower":1},{"avatar_url":"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTI9tOiaKOSA3RTd0WPAUwYpcw80MyZaoJESaaKo6SxQO2AgRTialTSs3oC1Prz0pyalGM4nYpDpyIGA/132","nick_name":"思念","userId":80777,"flower":1}],"totalCount":16,"currentUserPraised":false}},{"id":150053,"typeId":10,"typeName":"趣闻趣味","title":"","content":"<p>为什么古代不允许女人当官？因为每当犯人对她说：大人你听我解释啊！ 就会传来～ “我不听我不听！”</p>","covers":[],"digest":null,"userId":12060,"nickName":"喵小姐","avatarUrl":"http://zhongshi-user-avatar.oss-cn-beijing.aliyuncs.com/9d33ada0551a0f0695a035ef13b3ef59.jpg","areaName":"海淀区","readCount":4337,"commentCount":0,"praiseCount":7,"shareCount":70,"datetime":"11-07","source":null,"publishAddress":null,"tagUrl":null,"postfix":null,"phone":"","encourageReward":0,"kind":2,"hotTag":false,"praises":{"data":[{"avatar_url":"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJw0Fba3VEcYyS8LUUPTA8M7Sn6T1YgCzKmVt51eWWibI8pGySVlRogiahQWmsTpYOA3De8Vicr74BHQ/132","nick_name":"G.","userId":102075,"flower":1},{"avatar_url":"https://wx.qlogo.cn/mmhead/mlF7szRVKJhw5Hdx0u5YyibRTliamaLSDrObpQPaJ3oZo/132","nick_name":"梁淑娟","userId":16535,"flower":1},{"avatar_url":"https://wx.qlogo.cn/mmhead/sfYdEibamQEd7nQgAWfcFWunW36icr23gzAdXAh0UmEvo/132","nick_name":"黄晓萍","userId":53383,"flower":1},{"avatar_url":"https://wx.qlogo.cn/mmhead/KLJApn9eOSJZGUqvgvHB9WPTiazLsAdo1XNKgiaib5GzSg/132","nick_name":"朱嘉玲","userId":53641,"flower":1},{"avatar_url":"https://wx.qlogo.cn/mmhead/XXRch5ibxHGuibwnsNfuLLrlO8hWk4Nn70DsyhVfmhbUY/132","nick_name":"连育如","userId":61233,"flower":1}],"totalCount":7,"currentUserPraised":false}},{"id":150054,"typeId":16,"typeName":"趣闻趣味","title":"","content":"<p>前段时间网传L姓小鲜肉吸毒，有人说是刘星我忍了，有人说是刘梓晨我也忍了，特么居然还有人说是那英。。。</p>","covers":[],"digest":null,"userId":12061,"nickName":"饮惯了烈酒","avatarUrl":"http://zhongshi-user-avatar.oss-cn-beijing.aliyuncs.com/056b3766c52140be5e736fb98f2c36a5.jpg","areaName":"海淀区","readCount":3444,"commentCount":0,"praiseCount":0,"shareCount":62,"datetime":"03-16","source":null,"publishAddress":null,"tagUrl":null,"postfix":null,"phone":"15924437671,15924437671","encourageReward":0,"kind":2,"hotTag":false,"praises":{"data":[],"totalCount":0,"currentUserPraised":false}},{"id":150055,"typeId":16,"typeName":"身边事","title":"","content":"<p>高回报 营业中餐厅 招合作伙伴了！本人在位于内蒙古红山库有楼房一栋，实用面积：2200平米，价值600万元，属于旅游开发区，位置优越，现经营餐饮营业，客源稳定。因本人还有其它项目要经营，实在太忙，现寻求，合作，投资伙伴，共同致富。也可整体出租或出售，可用于饭店、宾馆、养老院、单位办公、工厂厂房等。联系电话：15924437671（非诚勿扰）联系人：张嘉璐</p>","covers":["https://pic1.58cdn.com.cn/images/xq_img/n_v2931196ff02994f3ea4fe3daa52422123.jpg","https://pic1.58cdn.com.cn/images/xq_img/n_v2f22f0a3fb4f44f8ba6ed202e95363f16.jpg","https://pic1.58cdn.com.cn/images/xq_img/n_v2f0cc7c2dc1dd4ea9bad63532a4a80d5d.jpg","https://pic1.58cdn.com.cn/images/xq_img/n_v27240a161c6fa4a84adae74954d863d8e.jpg"],"digest":null,"userId":12062,"nickName":"且行且珍惜","avatarUrl":"http://zhongshi-user-avatar.oss-cn-beijing.aliyuncs.com/2efaad18a37ccdebb46d51ef9da53575.jpg","areaName":"海淀区","readCount":3709,"commentCount":0,"praiseCount":0,"shareCount":67,"datetime":"03-16","source":null,"publishAddress":null,"tagUrl":null,"postfix":null,"phone":"15924437671","encourageReward":0,"kind":2,"hotTag":false,"praises":{"data":[],"totalCount":0,"currentUserPraised":false}},{"id":150056,"typeId":16,"typeName":"沸点","title":"","content":"<p>前端，本地测试的时候觉得没问题了，提交代码后，又发现好几个问题。为啥好多问题要在提交代码或者上线后我才能发现，没提交前，反复测试检查几次都发现不了。</p>","covers":[],"digest":null,"userId":12063,"nickName":"Ao丶初见你","avatarUrl":"http://zhongshi-user-avatar.oss-cn-beijing.aliyuncs.com/ac2850bff79337e123faba6ee0177f68.jpg","areaName":"海淀区","readCount":3261,"commentCount":0,"praiseCount":1,"shareCount":64,"datetime":"03-11","source":null,"publishAddress":null,"tagUrl":null,"postfix":null,"phone":"15175021628","encourageReward":0,"kind":2,"hotTag":false,"praises":{"data":[{"avatar_url":"https://wx.qlogo.cn/mmhead/eUnAgWjIianFRdOdQzBCD76nuPTL2ZIRbg66F9XJm8KY/132","nick_name":"盆栽是我种的","userId":53605,"flower":1}],"totalCount":1,"currentUserPraised":false}},{"id":150057,"typeId":16,"typeName":"程序猿","title":"","content":"<p>一哥们面试: 面试官: 你平时都怎么学习的？ 求职者:上网学习。 面试官:知道掘金吗？ 求职者:知道，NBA创始队之一，我最喜欢里面的安东尼😁 面试官:知道栈内存溢出吗？ 求职者:当然知道 天天登录的，不就是stackoverflow, 经常在上面查问题😁</p>","covers":[],"digest":null,"userId":12064,"nickName":"AWeiLoveAndroid","avatarUrl":"http://zhongshi-user-avatar.oss-cn-beijing.aliyuncs.com/7732956efbd5a8708c150e8ea0881f4b.jpeg","areaName":"海淀区","readCount":3511,"commentCount":0,"praiseCount":0,"shareCount":65,"datetime":"02-26","source":null,"publishAddress":null,"tagUrl":null,"postfix":null,"phone":"","encourageReward":0,"kind":2,"hotTag":false,"praises":{"data":[],"totalCount":0,"currentUserPraised":false}},{"id":150030,"typeId":9,"typeName":"沸点","title":"","content":"<p>掘金推荐浏览了一圈，果然C#在国内没市场啊😂😂😂😂</p>","covers":[],"digest":null,"userId":12037,"nickName":"可乐要加冰","avatarUrl":"http://zhongshi-user-avatar.oss-cn-beijing.aliyuncs.com/a4fd15ed8304ddfa616cccfe6bbb1db5.jpg","areaName":"海淀区","readCount":3673,"commentCount":0,"praiseCount":0,"shareCount":50,"datetime":"06-25","source":null,"publishAddress":null,"tagUrl":null,"postfix":null,"phone":"","encourageReward":0,"kind":2,"hotTag":false,"praises":{"data":[],"totalCount":0,"currentUserPraised":false}},{"id":150031,"typeId":9,"typeName":"面试宝典","title":"","content":"<p>JS的数据类型有哪些？typeof运算符的执行结果都有哪些数据类型？\n数据类型主要包括两部分：基本数据类型： Undefined、Null、Boolean、Number和String\n引用数据类型： Array 、Objecttypeof运算符的结果类型：\n number,string，boolean,object,function,undefined</p>","covers":[],"digest":null,"userId":12038,"nickName":"一杯茶的时间","avatarUrl":"http://zhongshi-user-avatar.oss-cn-beijing.aliyuncs.com/4cdd4b29c78f186ac875fb2b45510e15.jpg","areaName":"海淀区","readCount":3543,"commentCount":0,"praiseCount":0,"shareCount":46,"datetime":"06-24","source":null,"publishAddress":null,"tagUrl":null,"postfix":null,"phone":"","encourageReward":0,"kind":2,"hotTag":false,"praises":{"data":[],"totalCount":0,"currentUserPraised":false}},{"id":150032,"typeId":9,"typeName":"沸点","title":"","content":"<p>刚看到一个特别好玩儿的新闻，中国和意大利签了一个互换警察的协议。每到十一这种游客高峰期，中国会派出警察穿着中国警服在意大利热门旅游城市罗马、米兰巡逻，帮助中国游客解决问题。地球另一边，则是意大利警察穿着意大利警服在北京和西安巡逻。</p>","covers":[],"digest":null,"userId":12039,"nickName":"浅色记忆","avatarUrl":"http://zhongshi-user-avatar.oss-cn-beijing.aliyuncs.com/fbf7e348b9beafeacbc9df81fbb1177f.jpg","areaName":"海淀区","readCount":3518,"commentCount":0,"praiseCount":1,"shareCount":45,"datetime":"06-22","source":null,"publishAddress":null,"tagUrl":null,"postfix":null,"phone":"17813187856,17813187856","encourageReward":0,"kind":2,"hotTag":false,"praises":{"data":[{"avatar_url":"https://wx.qlogo.cn/mmhead/BRRnVx6bgJR9r8ROyPEzfg5HljbmvL5myib3Ub5T6hLs/132","nick_name":"陈郁雯","userId":53326,"flower":1}],"totalCount":1,"currentUserPraised":false}}]},"message":"ok","status":200};
 
 /***/ }),
 
@@ -7588,7 +7599,7 @@ module.exports = {"code":"200","pageTitle":"热门日报","newsTitle":"今日大
 /*! exports provided: code, user_info, menu, communityInfo, default */
 /***/ (function(module) {
 
-module.exports = {"code":"200","user_info":{"level":-1,"nickname":"兜里没糖👏🧕🏻🍄","headimgurl":"https://wx.qlogo.cn/mmopen/vi_32/tLQWqiaNPNRbODNichQq4HWld1aCmXKEfcJrlHolTKDAiafZxvRzt4pCicwDGwTSoQVEFkW6UbTUngKQ9xpXrYAntA/132","coupon_num":0,"redpacket_num":0,"order_num":0},"menu":[{"icon":"","title":"红包专区"},{"icon":"","title":"每日福利"}],"communityInfo":{"comming_list":[{"name":"【青年路|Mr.Gluttony】138元抢原价538元双人餐！专业威士忌，让你醉上瘾！","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191030/1572432651543.png","id":"9441","price":"138.00","bottom_price":"138.00","cardprice":"135","vip_discount":"3.00","start_time":"1572490740","display_time_str":"今天 10:59","save_price":"3.00"}],"hot_list":{"id":"1","title":"今日热卖","sub_title":"好店爆款，人手一份","max_num":"0","more_link":"","sort":"2","status":"1","add_time":"1568689190","show_hot_rank":1,"form_list":[{"id":"242","type":"2","title":"【 合生汇|佟掌柜de飞行架】9.9元限时秒杀15元炸鸡架！鸡架神店！“风靡全北京”！","desc":"","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191024/1571890239662.gif","url":"/index.php?m=Index&c=act&a=act_info&fid=9092","url_h5":"","link_id":"9092","is_display":"1","sort":"0","add_time":"1571967589","module_id":"1","vip_auth":0,"price":"9.90","original_price":"15.00","cardprice":"8.8","views":"3479","f_count":198,"save_price":"1.1"},{"id":"244","type":"2","title":"【前门|圣麒麟星空艺术馆】39.9抢原价136元星空单人票！360°光影！​“手摘星辰”！","desc":"","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191024/1571907945139.gif","url":"/index.php?m=Index&c=act&a=act_info&fid=9112","url_h5":"","link_id":"9112","is_display":"1","sort":"0","add_time":"1571967666","module_id":"1","vip_auth":0,"price":"39.90","original_price":"136.00","cardprice":"36.6","views":"2440","f_count":91,"save_price":"3.0"},{"id":"245","type":"2","title":"【21店通用|圣梦亲体美肤生活馆】39.9元抢原价1620元美肤套餐！星级体验，限时秒杀！","desc":"","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191024/1571909644619.png","url":"/index.php?m=Index&c=act&a=act_info&fid=9115","url_h5":"","link_id":"9115","is_display":"1","sort":"0","add_time":"1571967828","module_id":"1","vip_auth":0,"price":"39.90","original_price":"1620.00","cardprice":"39","views":"4574","f_count":176,"save_price":"0.9"},{"id":"246","type":"2","title":"【三里屯|FanFan 芳芳餐厅】248元抢374元2-3人餐！高级网红西餐！地道不高冷！","desc":"","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191026/1572064329475.png","url":"/index.php?m=Index&c=act&a=act_info&fid=9219","url_h5":"","link_id":"9219","is_display":"1","sort":"0","add_time":"1572230432","module_id":"1","vip_auth":0,"price":"248.00","original_price":"374.00","cardprice":"238","views":"934","f_count":0,"save_price":"10.0"},{"id":"247","type":"2","title":"【 望京|ZZ·SOUFFLER芙甜】15.9元抢原价30元的“网红舒芙蕾”！风靡ins！","desc":"","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191028/1572245984850.gif","url":"/index.php?m=Index&c=act&a=act_info&fid=9292","url_h5":"","link_id":"9292","is_display":"1","sort":"0","add_time":"1572313802","module_id":"1","vip_auth":0,"price":"15.90","original_price":"30.00","cardprice":"14.4","views":"1051","f_count":44,"save_price":"1.5"},{"id":"248","type":"2","title":"【 望京|茶令】12.9元抢原价28元的“网红茶饮”！21款任选！刷爆朋友圈！","desc":"","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191028/1572258098390.gif","url":"/index.php?m=Index&c=act&a=act_info&fid=9298","url_h5":"","link_id":"9298","is_display":"1","sort":"0","add_time":"1572313820","module_id":"1","vip_auth":0,"price":"12.90","original_price":"28.00","cardprice":"11.6","views":"1184","f_count":59,"save_price":"1.3"},{"id":"249","type":"2","title":"【超豪华自助|王府井希尔顿酒店】188元抢354.2元酒店自助单人餐！海鲜不限量！吃到撑！","desc":"","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191029/1572313217981.gif","url":"/index.php?m=Index&c=act&a=act_info&fid=9344","url_h5":"","link_id":"9344","is_display":"1","sort":"0","add_time":"1572313832","module_id":"1","vip_auth":0,"price":"188.00","original_price":"354.20","cardprice":"185","views":"473","f_count":0,"save_price":"3.0"},{"id":"250","type":"2","title":"【通朝大街|老佛爷·铜炉蛙锅】99元抢原价285元双人餐！新鲜牛蛙现杀现做！肉欲满满！","desc":"","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191029/1572313607416.png","url":"/index.php?m=Index&c=act&a=act_info&fid=9343","url_h5":"","link_id":"9343","is_display":"1","sort":"1","add_time":"1572315325","module_id":"1","vip_auth":0,"price":"99.00","original_price":"285.00","cardprice":"90","views":"1232","f_count":12,"save_price":"9.0"},{"id":"239","type":"2","title":"【两店通用|三味缘牛蛙火锅】98元抢原价208元干锅牛蛙双人餐！肉欲爆棚！麻辣鲜香吃过瘾！","desc":"","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191022/1571723614349.gif","url":"/index.php?m=Index&c=act&a=act_info&fid=8972","url_h5":"","link_id":"8972","is_display":"1","sort":"2","add_time":"1571738609","module_id":"1","vip_auth":0,"price":"98.00","original_price":"208.00","cardprice":"95","views":"5575","f_count":81,"save_price":"3.0"},{"id":"243","type":"2","title":"【马家堡|蛋黄哥五星主厨餐厅】138元抢原价341元2-3人套！菜品超萌，主角居然是颗蛋！","desc":"","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191024/1571911723589.gif","url":"/index.php?m=Index&c=act&a=act_info&fid=9108","url_h5":"","link_id":"9108","is_display":"1","sort":"2","add_time":"1571967613","module_id":"1","vip_auth":0,"price":"138.00","original_price":"341.00","cardprice":"128","views":"4693","f_count":36,"save_price":"10.0"},{"id":"222","type":"2","title":"【三里屯|日食记】138元抢362元炭火火锅3~4人餐！牛板筋锅、羊肉锅2选1！人均30+","desc":"","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191014/1571052945682.png","url":"/index.php?m=Index&c=act&a=act_info&fid=8610","url_h5":"","link_id":"8610","is_display":"1","sort":"3","add_time":"1571110355","module_id":"1","vip_auth":0,"price":"138.00","original_price":"362.00","cardprice":"128","views":"9928","f_count":172,"save_price":"10.0"},{"id":"238","type":"2","title":"【十里堡|葱葱那年串串香火锅】128元抢原价299元串串香4人餐！人均32吃到撑！","desc":"","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191021/1571653030484.gif","url":"/index.php?m=Index&c=act&a=act_info&fid=8923","url_h5":"","link_id":"8923","is_display":"1","sort":"3","add_time":"1571737997","module_id":"1","vip_auth":0,"price":"128.00","original_price":"299.00","cardprice":"118","views":"5037","f_count":114,"save_price":"10.0"},{"id":"235","type":"2","title":"【双井|虾匠手抓小龙虾】118元抢原价335元套餐！大闸蟹+重庆辣子鸡！低至3.5折抢！","desc":"","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191021/1571643586408.png","url":"/index.php?m=Index&c=act&a=act_info&fid=8934","url_h5":"","link_id":"8934","is_display":"1","sort":"5","add_time":"1571710779","module_id":"1","vip_auth":0,"price":"118.00","original_price":"335.00","cardprice":"108","views":"3782","f_count":49,"save_price":"10.0"},{"id":"234","type":"2","title":"【望京|西南官话贵州私房菜】139元抢原价261元双人餐！超火酸汤锅来袭，吃到扶墙出！","desc":"","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191021/1571622658194.png","url":"/index.php?m=Index&c=act&a=act_info&fid=8880","url_h5":"","link_id":"8880","is_display":"1","sort":"6","add_time":"1571627251","module_id":"1","vip_auth":0,"price":"99.00","original_price":"261.00","cardprice":"89","views":"8167","f_count":141,"save_price":"10.0"}]},"recommend_list":{"id":"2","title":"新品推荐","sub_title":"新品好物，先到先得","max_num":"0","more_link":"","sort":"2","status":"1","add_time":"1568689190","show_hot_rank":0,"form_list":[{"id":"9092","cat_id":"80","type":"2","name":"【 合生汇|佟掌柜de飞行架】9.9元限时秒杀15元炸鸡架！鸡架神店！“风靡全北京”！","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191024/1571890239662.gif","tuijian":"0","start_time":"2019-10-25","end_time":"2019-10-31","price":"9.90","cardprice":"8.80","original_price":"15.00","vip_discount":"1.10","bottom_price":"9.90","kucun":833,"kucun_price":"0","tag_id":"3,6,74","zhibo_id":"","views":"2934","f_count":177,"need_card":"0","group_price":"0","group_level_price":"0","group":"0","vip_first_time":"0","status":"0","vip_auth":0,"has_discount":1,"tag_name":"好吃的","save_price":"1.10","free":0,"store_name":"佟掌柜de飞行架","distance":"25.4公里","area_name":""},{"id":"9108","cat_id":"59","type":"2","name":"【马家堡|蛋黄哥五星主厨餐厅】138元抢原价341元2-3人套！菜品超萌，主角居然是颗蛋！","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191024/1571911723589.gif","tuijian":"0","start_time":"2019-10-25","end_time":"2019-11-03","price":"138.00","cardprice":"128.00","original_price":"341.00","vip_discount":"10.00","bottom_price":"138.00","kucun":169,"kucun_price":"0","tag_id":"205","zhibo_id":"","views":"3807","f_count":26,"need_card":"0","group_price":"0","group_level_price":"0","group":"0","vip_first_time":"0","status":"0","vip_auth":0,"has_discount":1,"tag_name":"好吃的","save_price":"10.00","free":0,"store_name":"蛋黄哥五星主厨餐厅","distance":"24.2公里","area_name":""},{"id":"9298","cat_id":"48","type":"2","name":"【 望京|茶令】12.9元抢原价28元的“网红茶饮”！21款任选！刷爆朋友圈！","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191028/1572258098390.gif","tuijian":"0","start_time":"2019-10-29","end_time":"2019-11-04","price":"12.90","cardprice":"11.60","original_price":"28.00","vip_discount":"1.30","bottom_price":"12.90","kucun":1920,"kucun_price":"0","tag_id":"3,6,18","zhibo_id":"","views":"1379","f_count":80,"need_card":"0","group_price":"0","group_level_price":"0","group":"0","vip_first_time":"0","status":"0","vip_auth":0,"has_discount":1,"tag_name":"好吃的","save_price":"1.30","free":0,"store_name":"茶令(望京麒麟社店)","distance":"17.9公里","area_name":""},{"id":"9292","cat_id":"48","type":"2","name":"【 望京|ZZ·SOUFFLER芙甜】15.9元抢原价30元的“网红舒芙蕾”！风靡ins！","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191028/1572245984850.gif","tuijian":"0","start_time":"2019-10-29","end_time":"2019-11-04","price":"15.90","cardprice":"14.40","original_price":"30.00","vip_discount":"1.50","bottom_price":"15.90","kucun":1936,"kucun_price":"0","tag_id":"3,6,18,148","zhibo_id":"","views":"1474","f_count":64,"need_card":"0","group_price":"0","group_level_price":"0","group":"0","vip_first_time":"0","status":"0","vip_auth":0,"has_discount":1,"tag_name":"好吃的","save_price":"1.50","free":0,"store_name":"ZZ·SOUFFLER芙甜(麒麟社店)","distance":"17.9公里","area_name":""},{"id":"9219","cat_id":"40","type":"2","name":"【三里屯|FanFan 芳芳餐厅】248元抢374元2-3人餐！高级网红西餐！地道不高冷！","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191026/1572064329475.png","tuijian":"0","start_time":"2019-10-28","end_time":"2019-11-03","price":"248.00","cardprice":"238.00","original_price":"374.00","vip_discount":"10.00","bottom_price":"248.00","kucun":499,"kucun_price":"0","tag_id":"6,15,48,88,159","zhibo_id":"","views":"1609","f_count":1,"need_card":"0","group_price":"0","group_level_price":"0","group":"0","vip_first_time":"0","status":"0","vip_auth":0,"has_discount":1,"tag_name":"好吃的","save_price":"10.00","free":0,"store_name":"FanFan 芳芳餐厅","distance":"18.9公里","area_name":""}]}}};
+module.exports = {"code":"200","user_info":{"level":-1,"nickname":"欢迎您","headimgurl":"https://wx.qlogo.cn/mmhead/zB34mkOxrkPSjKghibAX0ZPoQ93Z2ZRR7z6b3mVhB7O4/132","coupon_num":0,"redpacket_num":0,"order_num":0},"menu":[{"icon":"","title":"红包专区"},{"icon":"","title":"每日福利"}],"communityInfo":{"comming_list":[{"name":"【青年路|Mr.Gluttony】138元抢原价538元双人餐！专业威士忌，让你醉上瘾！","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191030/1572432651543.png","id":"9441","price":"138.00","bottom_price":"138.00","cardprice":"135","vip_discount":"3.00","start_time":"1572490740","display_time_str":"今天 10:59","save_price":"3.00"}],"hot_list":{"id":"1","title":"今日吃点","sub_title":"好店爆款，人手一份","max_num":"0","more_link":"","sort":"2","status":"1","add_time":"1568689190","show_hot_rank":1,"form_list":[{"id":"242","type":"2","title":"【 合生汇|佟掌柜de飞行架】9.9元限时秒杀15元炸鸡架！鸡架神店！“风靡全北京”！","desc":"","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191024/1571890239662.gif","url":"/index.php?m=Index&c=act&a=act_info&fid=9092","url_h5":"","link_id":"9092","is_display":"1","sort":"0","add_time":"1571967589","module_id":"1","vip_auth":0,"price":"9.90","original_price":"15.00","cardprice":"8.8","views":"3479","f_count":198,"save_price":"1.1"},{"id":"244","type":"2","title":"【前门|圣麒麟星空艺术馆】39.9抢原价136元星空单人票！360°光影！​“手摘星辰”！","desc":"","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191024/1571907945139.gif","url":"/index.php?m=Index&c=act&a=act_info&fid=9112","url_h5":"","link_id":"9112","is_display":"1","sort":"0","add_time":"1571967666","module_id":"1","vip_auth":0,"price":"39.90","original_price":"136.00","cardprice":"36.6","views":"2440","f_count":91,"save_price":"3.0"},{"id":"245","type":"2","title":"【21店通用|圣梦亲体美肤生活馆】39.9元抢原价1620元美肤套餐！星级体验，限时秒杀！","desc":"","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191024/1571909644619.png","url":"/index.php?m=Index&c=act&a=act_info&fid=9115","url_h5":"","link_id":"9115","is_display":"1","sort":"0","add_time":"1571967828","module_id":"1","vip_auth":0,"price":"39.90","original_price":"1620.00","cardprice":"39","views":"4574","f_count":176,"save_price":"0.9"},{"id":"246","type":"2","title":"【三里屯|FanFan 芳芳餐厅】248元抢374元2-3人餐！高级网红西餐！地道不高冷！","desc":"","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191026/1572064329475.png","url":"/index.php?m=Index&c=act&a=act_info&fid=9219","url_h5":"","link_id":"9219","is_display":"1","sort":"0","add_time":"1572230432","module_id":"1","vip_auth":0,"price":"248.00","original_price":"374.00","cardprice":"238","views":"934","f_count":0,"save_price":"10.0"},{"id":"247","type":"2","title":"【 望京|ZZ·SOUFFLER芙甜】15.9元抢原价30元的“网红舒芙蕾”！风靡ins！","desc":"","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191028/1572245984850.gif","url":"/index.php?m=Index&c=act&a=act_info&fid=9292","url_h5":"","link_id":"9292","is_display":"1","sort":"0","add_time":"1572313802","module_id":"1","vip_auth":0,"price":"15.90","original_price":"30.00","cardprice":"14.4","views":"1051","f_count":44,"save_price":"1.5"},{"id":"248","type":"2","title":"【 望京|茶令】12.9元抢原价28元的“网红茶饮”！21款任选！刷爆朋友圈！","desc":"","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191028/1572258098390.gif","url":"/index.php?m=Index&c=act&a=act_info&fid=9298","url_h5":"","link_id":"9298","is_display":"1","sort":"0","add_time":"1572313820","module_id":"1","vip_auth":0,"price":"12.90","original_price":"28.00","cardprice":"11.6","views":"1184","f_count":59,"save_price":"1.3"},{"id":"249","type":"2","title":"【超豪华自助|王府井希尔顿酒店】188元抢354.2元酒店自助单人餐！海鲜不限量！吃到撑！","desc":"","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191029/1572313217981.gif","url":"/index.php?m=Index&c=act&a=act_info&fid=9344","url_h5":"","link_id":"9344","is_display":"1","sort":"0","add_time":"1572313832","module_id":"1","vip_auth":0,"price":"188.00","original_price":"354.20","cardprice":"185","views":"473","f_count":0,"save_price":"3.0"},{"id":"250","type":"2","title":"【通朝大街|老佛爷·铜炉蛙锅】99元抢原价285元双人餐！新鲜牛蛙现杀现做！肉欲满满！","desc":"","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191029/1572313607416.png","url":"/index.php?m=Index&c=act&a=act_info&fid=9343","url_h5":"","link_id":"9343","is_display":"1","sort":"1","add_time":"1572315325","module_id":"1","vip_auth":0,"price":"99.00","original_price":"285.00","cardprice":"90","views":"1232","f_count":12,"save_price":"9.0"},{"id":"239","type":"2","title":"【两店通用|三味缘牛蛙火锅】98元抢原价208元干锅牛蛙双人餐！肉欲爆棚！麻辣鲜香吃过瘾！","desc":"","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191022/1571723614349.gif","url":"/index.php?m=Index&c=act&a=act_info&fid=8972","url_h5":"","link_id":"8972","is_display":"1","sort":"2","add_time":"1571738609","module_id":"1","vip_auth":0,"price":"98.00","original_price":"208.00","cardprice":"95","views":"5575","f_count":81,"save_price":"3.0"},{"id":"243","type":"2","title":"【马家堡|蛋黄哥五星主厨餐厅】138元抢原价341元2-3人套！菜品超萌，主角居然是颗蛋！","desc":"","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191024/1571911723589.gif","url":"/index.php?m=Index&c=act&a=act_info&fid=9108","url_h5":"","link_id":"9108","is_display":"1","sort":"2","add_time":"1571967613","module_id":"1","vip_auth":0,"price":"138.00","original_price":"341.00","cardprice":"128","views":"4693","f_count":36,"save_price":"10.0"},{"id":"222","type":"2","title":"【三里屯|日食记】138元抢362元炭火火锅3~4人餐！牛板筋锅、羊肉锅2选1！人均30+","desc":"","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191014/1571052945682.png","url":"/index.php?m=Index&c=act&a=act_info&fid=8610","url_h5":"","link_id":"8610","is_display":"1","sort":"3","add_time":"1571110355","module_id":"1","vip_auth":0,"price":"138.00","original_price":"362.00","cardprice":"128","views":"9928","f_count":172,"save_price":"10.0"},{"id":"238","type":"2","title":"【十里堡|葱葱那年串串香火锅】128元抢原价299元串串香4人餐！人均32吃到撑！","desc":"","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191021/1571653030484.gif","url":"/index.php?m=Index&c=act&a=act_info&fid=8923","url_h5":"","link_id":"8923","is_display":"1","sort":"3","add_time":"1571737997","module_id":"1","vip_auth":0,"price":"128.00","original_price":"299.00","cardprice":"118","views":"5037","f_count":114,"save_price":"10.0"},{"id":"235","type":"2","title":"【双井|虾匠手抓小龙虾】118元抢原价335元套餐！大闸蟹+重庆辣子鸡！低至3.5折抢！","desc":"","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191021/1571643586408.png","url":"/index.php?m=Index&c=act&a=act_info&fid=8934","url_h5":"","link_id":"8934","is_display":"1","sort":"5","add_time":"1571710779","module_id":"1","vip_auth":0,"price":"118.00","original_price":"335.00","cardprice":"108","views":"3782","f_count":49,"save_price":"10.0"},{"id":"234","type":"2","title":"【望京|西南官话贵州私房菜】139元抢原价261元双人餐！超火酸汤锅来袭，吃到扶墙出！","desc":"","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191021/1571622658194.png","url":"/index.php?m=Index&c=act&a=act_info&fid=8880","url_h5":"","link_id":"8880","is_display":"1","sort":"6","add_time":"1571627251","module_id":"1","vip_auth":0,"price":"99.00","original_price":"261.00","cardprice":"89","views":"8167","f_count":141,"save_price":"10.0"}]},"recommend_list":{"id":"2","title":"新品推荐","sub_title":"新品好物，先到先得","max_num":"0","more_link":"","sort":"2","status":"1","add_time":"1568689190","show_hot_rank":0,"form_list":[{"id":"9092","cat_id":"80","type":"2","name":"【 合生汇|佟掌柜de飞行架】9.9元限时秒杀15元炸鸡架！鸡架神店！“风靡全北京”！","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191024/1571890239662.gif","tuijian":"0","start_time":"2019-10-25","end_time":"2019-10-31","price":"9.90","cardprice":"8.80","original_price":"15.00","vip_discount":"1.10","bottom_price":"9.90","kucun":833,"kucun_price":"0","tag_id":"3,6,74","zhibo_id":"","views":"2934","f_count":177,"need_card":"0","group_price":"0","group_level_price":"0","group":"0","vip_first_time":"0","status":"0","vip_auth":0,"has_discount":1,"tag_name":"好吃的","save_price":"1.10","free":0,"store_name":"佟掌柜de飞行架","distance":"25.4公里","area_name":""},{"id":"9108","cat_id":"59","type":"2","name":"【马家堡|蛋黄哥五星主厨餐厅】138元抢原价341元2-3人套！菜品超萌，主角居然是颗蛋！","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191024/1571911723589.gif","tuijian":"0","start_time":"2019-10-25","end_time":"2019-11-03","price":"138.00","cardprice":"128.00","original_price":"341.00","vip_discount":"10.00","bottom_price":"138.00","kucun":169,"kucun_price":"0","tag_id":"205","zhibo_id":"","views":"3807","f_count":26,"need_card":"0","group_price":"0","group_level_price":"0","group":"0","vip_first_time":"0","status":"0","vip_auth":0,"has_discount":1,"tag_name":"好吃的","save_price":"10.00","free":0,"store_name":"蛋黄哥五星主厨餐厅","distance":"24.2公里","area_name":""},{"id":"9298","cat_id":"48","type":"2","name":"【 望京|茶令】12.9元抢原价28元的“网红茶饮”！21款任选！刷爆朋友圈！","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191028/1572258098390.gif","tuijian":"0","start_time":"2019-10-29","end_time":"2019-11-04","price":"12.90","cardprice":"11.60","original_price":"28.00","vip_discount":"1.30","bottom_price":"12.90","kucun":1920,"kucun_price":"0","tag_id":"3,6,18","zhibo_id":"","views":"1379","f_count":80,"need_card":"0","group_price":"0","group_level_price":"0","group":"0","vip_first_time":"0","status":"0","vip_auth":0,"has_discount":1,"tag_name":"好吃的","save_price":"1.30","free":0,"store_name":"茶令(望京麒麟社店)","distance":"17.9公里","area_name":""},{"id":"9292","cat_id":"48","type":"2","name":"【 望京|ZZ·SOUFFLER芙甜】15.9元抢原价30元的“网红舒芙蕾”！风靡ins！","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191028/1572245984850.gif","tuijian":"0","start_time":"2019-10-29","end_time":"2019-11-04","price":"15.90","cardprice":"14.40","original_price":"30.00","vip_discount":"1.50","bottom_price":"15.90","kucun":1936,"kucun_price":"0","tag_id":"3,6,18,148","zhibo_id":"","views":"1474","f_count":64,"need_card":"0","group_price":"0","group_level_price":"0","group":"0","vip_first_time":"0","status":"0","vip_auth":0,"has_discount":1,"tag_name":"好吃的","save_price":"1.50","free":0,"store_name":"ZZ·SOUFFLER芙甜(麒麟社店)","distance":"17.9公里","area_name":""},{"id":"9219","cat_id":"40","type":"2","name":"【三里屯|FanFan 芳芳餐厅】248元抢374元2-3人餐！高级网红西餐！地道不高冷！","pic":"https://upyun.ydnewmedia.com/urm_huodong/20191026/1572064329475.png","tuijian":"0","start_time":"2019-10-28","end_time":"2019-11-03","price":"248.00","cardprice":"238.00","original_price":"374.00","vip_discount":"10.00","bottom_price":"248.00","kucun":499,"kucun_price":"0","tag_id":"6,15,48,88,159","zhibo_id":"","views":"1609","f_count":1,"need_card":"0","group_price":"0","group_level_price":"0","group":"0","vip_first_time":"0","status":"0","vip_auth":0,"has_discount":1,"tag_name":"好吃的","save_price":"10.00","free":0,"store_name":"FanFan 芳芳餐厅","distance":"18.9公里","area_name":""}]}}};
 
 /***/ }),
 
@@ -7620,6 +7631,479 @@ try {
 
 module.exports = g;
 
+
+/***/ }),
+
+/***/ 35:
+/*!************************************************************************!*\
+  !*** /Users/liuyilan/Documents/Uni-app/UniApp/utils/qqmap-wx-jssdk.js ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError("Cannot call a class as a function");}}function _defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}function _createClass(Constructor, protoProps, staticProps) {if (protoProps) _defineProperties(Constructor.prototype, protoProps);if (staticProps) _defineProperties(Constructor, staticProps);return Constructor;} /**
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            * 微信小程序JavaScriptSDK
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            * 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            * @version 1.0
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            * @date 2017-01-10
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            * @author jaysonzhou@tencent.com
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            */
+
+var ERROR_CONF = {
+  KEY_ERR: 311,
+  KEY_ERR_MSG: 'key格式错误',
+  PARAM_ERR: 310,
+  PARAM_ERR_MSG: '请求参数信息有误',
+  SYSTEM_ERR: 600,
+  SYSTEM_ERR_MSG: '系统错误',
+  WX_ERR_CODE: 1000,
+  WX_OK_CODE: 200 };
+
+var BASE_URL = 'https://apis.map.qq.com/ws/';
+var URL_SEARCH = BASE_URL + 'place/v1/search';
+var URL_SUGGESTION = BASE_URL + 'place/v1/suggestion';
+var URL_GET_GEOCODER = BASE_URL + 'geocoder/v1/';
+var URL_CITY_LIST = BASE_URL + 'district/v1/list';
+var URL_AREA_LIST = BASE_URL + 'district/v1/getchildren';
+var URL_DISTANCE = BASE_URL + 'distance/v1/';
+var Utils = {
+  /**
+               * 得到终点query字符串
+               * @param {Array|String} 检索数据
+               */
+  location2query: function location2query(data) {
+    if (typeof data == 'string') {
+      return data;
+    }
+    var query = '';
+    for (var i = 0; i < data.length; i++) {
+      var d = data[i];
+      if (!!query) {
+        query += ';';
+      }
+      if (d.location) {
+        query = query + d.location.lat + ',' + d.location.lng;
+      }
+      if (d.latitude && d.longitude) {
+        query = query + d.latitude + ',' + d.longitude;
+      }
+    }
+    return query;
+  },
+
+  /**
+      * 使用微信接口进行定位
+      */
+  getWXLocation: function getWXLocation(success, fail, complete) {
+    wx.getLocation({
+      type: 'gcj02',
+      success: success,
+      fail: fail,
+      complete: complete });
+
+  },
+
+  /**
+      * 获取location参数
+      */
+  getLocationParam: function getLocationParam(location) {
+    if (typeof location == 'string') {
+      var locationArr = location.split(',');
+      if (locationArr.length === 2) {
+        location = {
+          latitude: location.split(',')[0],
+          longitude: location.split(',')[1] };
+
+      } else {
+        location = {};
+      }
+    }
+    return location;
+  },
+
+  /**
+      * 回调函数默认处理
+      */
+  polyfillParam: function polyfillParam(param) {
+    param.success = param.success || function () {};
+    param.fail = param.fail || function () {};
+    param.complete = param.complete || function () {};
+  },
+
+  /**
+      * 验证param对应的key值是否为空
+      * 
+      * @param {Object} param 接口参数
+      * @param {String} key 对应参数的key
+      */
+  checkParamKeyEmpty: function checkParamKeyEmpty(param, key) {
+    if (!param[key]) {
+      var errconf = this.buildErrorConfig(ERROR_CONF.PARAM_ERR, ERROR_CONF.PARAM_ERR_MSG + key + '参数格式有误');
+      param.fail(errconf);
+      param.complete(errconf);
+      return true;
+    }
+    return false;
+  },
+
+  /**
+      * 验证参数中是否存在检索词keyword
+      * 
+      * @param {Object} param 接口参数
+      */
+  checkKeyword: function checkKeyword(param) {
+    return !this.checkParamKeyEmpty(param, 'keyword');
+  },
+
+  /**
+      * 验证location值
+      * 
+      * @param {Object} param 接口参数
+      */
+  checkLocation: function checkLocation(param) {
+    var location = this.getLocationParam(param.location);
+    if (!location || !location.latitude || !location.longitude) {
+      var errconf = this.buildErrorConfig(ERROR_CONF.PARAM_ERR, ERROR_CONF.PARAM_ERR_MSG + ' location参数格式有误');
+      param.fail(errconf);
+      param.complete(errconf);
+      return false;
+    }
+    return true;
+  },
+
+  /**
+      * 构造错误数据结构
+      * @param {Number} errCode 错误码
+      * @param {Number} errMsg 错误描述
+      */
+  buildErrorConfig: function buildErrorConfig(errCode, errMsg) {
+    return {
+      status: errCode,
+      message: errMsg };
+
+  },
+
+  /**
+      * 构造微信请求参数，公共属性处理
+      * 
+      * @param {Object} param 接口参数
+      * @param {Object} param 配置项
+      */
+  buildWxRequestConfig: function buildWxRequestConfig(param, options) {
+    var that = this;
+    options.header = { "content-type": "application/json" };
+    options.method = 'GET';
+    options.success = function (res) {
+      var data = res.data;
+      if (data.status === 0) {
+        param.success(data);
+      } else {
+        param.fail(data);
+      }
+    };
+    options.fail = function (res) {
+      res.statusCode = ERROR_CONF.WX_ERR_CODE;
+      param.fail(that.buildErrorConfig(ERROR_CONF.WX_ERR_CODE, result.errMsg));
+    };
+    options.complete = function (res) {
+      var statusCode = +res.statusCode;
+      switch (statusCode) {
+        case ERROR_CONF.WX_ERR_CODE:{
+            param.complete(that.buildErrorConfig(ERROR_CONF.WX_ERR_CODE, res.errMsg));
+            break;
+          }
+        case ERROR_CONF.WX_OK_CODE:{
+            var data = res.data;
+            if (data.status === 0) {
+              param.complete(data);
+            } else {
+              param.complete(that.buildErrorConfig(data.status, data.message));
+            }
+            break;
+          }
+        default:{
+            param.complete(that.buildErrorConfig(ERROR_CONF.SYSTEM_ERR, ERROR_CONF.SYSTEM_ERR_MSG));
+          }}
+
+
+    };
+    return options;
+  },
+
+  /**
+      * 处理用户参数是否传入坐标进行不同的处理
+      */
+  locationProcess: function locationProcess(param, locationsuccess, locationfail, locationcomplete) {
+    var that = this;
+    locationfail = locationfail || function (res) {
+      res.statusCode = ERROR_CONF.WX_ERR_CODE;
+      param.fail(that.buildErrorConfig(ERROR_CONF.WX_ERR_CODE, res.errMsg));
+    };
+    locationcomplete = locationcomplete || function (res) {
+      if (res.statusCode == ERROR_CONF.WX_ERR_CODE) {
+        param.complete(that.buildErrorConfig(ERROR_CONF.WX_ERR_CODE, res.errMsg));
+      }
+    };
+    if (!param.location) {
+      that.getWXLocation(locationsuccess, locationfail, locationcomplete);
+    } else if (that.checkLocation(param)) {
+      var location = Utils.getLocationParam(param.location);
+      locationsuccess(location);
+    }
+  } };var
+
+
+
+QQMapWX = /*#__PURE__*/function () {
+
+  /**
+                                     * 构造函数
+                                     * 
+                                     * @param {Object} options 接口参数,key 为必选参数
+                                     */
+  function QQMapWX(options) {_classCallCheck(this, QQMapWX);
+    if (!options.key) {
+      throw Error('key值不能为空');
+    }
+    this.key = options.key;
+  }
+
+  /**
+     * POI周边检索
+     *
+     * @param {Object} options 接口参数对象
+     * 
+     * 参数对象结构可以参考
+     * @see http://lbs.qq.com/webservice_v1/guide-search.html
+     */_createClass(QQMapWX, [{ key: "search", value: function search(
+    options) {
+      var that = this;
+      options = options || {};
+
+      Utils.polyfillParam(options);
+
+      if (!Utils.checkKeyword(options)) {
+        return;
+      }
+
+      var requestParam = {
+        keyword: options.keyword,
+        orderby: options.orderby || '_distance',
+        page_size: options.page_size || 10,
+        page_index: options.page_index || 1,
+        output: 'json',
+        key: that.key };
+
+
+      if (options.address_format) {
+        requestParam.address_format = options.address_format;
+      }
+
+      if (options.filter) {
+        requestParam.filter = options.filter;
+      }
+
+      var distance = options.distance || "1000";
+      var auto_extend = options.auto_extend || 1;
+
+      var locationsuccess = function locationsuccess(result) {
+        requestParam.boundary = "nearby(" + result.latitude + "," + result.longitude + "," + distance + "," + auto_extend + ")";
+        wx.request(Utils.buildWxRequestConfig(options, {
+          url: URL_SEARCH,
+          data: requestParam }));
+
+      };
+      Utils.locationProcess(options, locationsuccess);
+    }
+
+    /**
+       * sug模糊检索
+       *
+       * @param {Object} options 接口参数对象
+       * 
+       * 参数对象结构可以参考
+       * http://lbs.qq.com/webservice_v1/guide-suggestion.html
+       */ }, { key: "getSuggestion", value: function getSuggestion(
+    options) {
+      var that = this;
+      options = options || {};
+      Utils.polyfillParam(options);
+
+      if (!Utils.checkKeyword(options)) {
+        return;
+      }
+
+      var requestParam = {
+        keyword: options.keyword,
+        region: options.region || '全国',
+        region_fix: options.region_fix || 0,
+        policy: options.policy || 0,
+        output: 'json',
+        key: that.key };
+
+      wx.request(Utils.buildWxRequestConfig(options, {
+        url: URL_SUGGESTION,
+        data: requestParam }));
+
+    }
+
+    /**
+       * 逆地址解析
+       *
+       * @param {Object} options 接口参数对象
+       * 
+       * 请求参数结构可以参考
+       * http://lbs.qq.com/webservice_v1/guide-gcoder.html
+       */ }, { key: "reverseGeocoder", value: function reverseGeocoder(
+    options) {
+      var that = this;
+      options = options || {};
+      Utils.polyfillParam(options);
+      var requestParam = {
+        coord_type: options.coord_type || 5,
+        get_poi: options.get_poi || 0,
+        output: 'json',
+        key: that.key };
+
+      if (options.poi_options) {
+        requestParam.poi_options = options.poi_options;
+      }
+
+      var locationsuccess = function locationsuccess(result) {
+        requestParam.location = result.latitude + ',' + result.longitude;
+        wx.request(Utils.buildWxRequestConfig(options, {
+          url: URL_GET_GEOCODER,
+          data: requestParam }));
+
+      };
+      Utils.locationProcess(options, locationsuccess);
+    }
+
+    /**
+       * 地址解析
+       *
+       * @param {Object} options 接口参数对象
+       * 
+       * 请求参数结构可以参考
+       * http://lbs.qq.com/webservice_v1/guide-geocoder.html
+       */ }, { key: "geocoder", value: function geocoder(
+    options) {
+      var that = this;
+      options = options || {};
+      Utils.polyfillParam(options);
+
+      if (Utils.checkParamKeyEmpty(options, 'address')) {
+        return;
+      }
+
+      var requestParam = {
+        address: options.address,
+        output: 'json',
+        key: that.key };
+
+
+      wx.request(Utils.buildWxRequestConfig(options, {
+        url: URL_GET_GEOCODER,
+        data: requestParam }));
+
+    }
+
+
+    /**
+       * 获取城市列表
+       *
+       * @param {Object} options 接口参数对象
+       * 
+       * 请求参数结构可以参考
+       * http://lbs.qq.com/webservice_v1/guide-region.html
+       */ }, { key: "getCityList", value: function getCityList(
+    options) {
+      var that = this;
+      options = options || {};
+      Utils.polyfillParam(options);
+      var requestParam = {
+        output: 'json',
+        key: that.key };
+
+
+      wx.request(Utils.buildWxRequestConfig(options, {
+        url: URL_CITY_LIST,
+        data: requestParam }));
+
+    }
+
+    /**
+       * 获取对应城市ID的区县列表
+       *
+       * @param {Object} options 接口参数对象
+       * 
+       * 请求参数结构可以参考
+       * http://lbs.qq.com/webservice_v1/guide-region.html
+       */ }, { key: "getDistrictByCityId", value: function getDistrictByCityId(
+    options) {
+      var that = this;
+      options = options || {};
+      Utils.polyfillParam(options);
+
+      if (Utils.checkParamKeyEmpty(options, 'id')) {
+        return;
+      }
+
+      var requestParam = {
+        id: options.id || '',
+        output: 'json',
+        key: that.key };
+
+
+      wx.request(Utils.buildWxRequestConfig(options, {
+        url: URL_AREA_LIST,
+        data: requestParam }));
+
+    }
+
+    /**
+       * 用于单起点到多终点的路线距离(非直线距离)计算：
+       * 支持两种距离计算方式：步行和驾车。
+       * 起点到终点最大限制直线距离10公里。
+       *
+       * @param {Object} options 接口参数对象
+       * 
+       * 请求参数结构可以参考
+       * http://lbs.qq.com/webservice_v1/guide-distance.html
+       */ }, { key: "calculateDistance", value: function calculateDistance(
+    options) {
+      var that = this;
+      options = options || {};
+      Utils.polyfillParam(options);
+
+      if (Utils.checkParamKeyEmpty(options, 'to')) {
+        return;
+      }
+
+      var requestParam = {
+        mode: options.mode || 'walking',
+        to: Utils.location2query(options.to),
+        output: 'json',
+        key: that.key };
+
+
+      var locationsuccess = function locationsuccess(result) {
+        requestParam.from = result.latitude + ',' + result.longitude;
+        wx.request(Utils.buildWxRequestConfig(options, {
+          url: URL_DISTANCE,
+          data: requestParam }));
+
+      };
+      if (options.from) {
+        options.location = options.from;
+      }
+
+      Utils.locationProcess(options, locationsuccess);
+    } }]);return QQMapWX;}();
+
+
+module.exports = QQMapWX;
 
 /***/ }),
 
@@ -8522,7 +9006,7 @@ main();
 
 /***/ }),
 
-/***/ 53:
+/***/ 56:
 /*!**********************************************************************!*\
   !*** /Users/liuyilan/Documents/Uni-app/UniApp/static/mock/boon.json ***!
   \**********************************************************************/
@@ -8552,7 +9036,7 @@ module.exports = {"_from":"@dcloudio/uni-stat@next","_id":"@dcloudio/uni-stat@2.
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = { "pages": { "pages/home/home": { "navigationBarTitleText": "首页", "enablePullDownRefresh": true }, "pages/community/community": { "enablePullDownRefresh": true }, "pages/discover/discover": { "enablePullDownRefresh": true }, "pages/detail/detail": {}, "pages/search/search": {}, "pages/boon/boon": {} }, "globalStyle": { "navigationStyle": "default", "navigationBarTextStyle": "black", "navigationBarTitleText": "今日早间", "navigationBarBackgroundColor": "#FFFFFF", "backgroundColor": "#FFFFFF" } };exports.default = _default;
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = { "pages": { "pages/home/home": { "navigationBarTitleText": "首页", "enablePullDownRefresh": true, "usingComponents": { "icon": "/components/icon/uni-icons/uni-icons", "home-status-bar": "/components/nav-bar/uni-status-bar/uni-status-bar", "home-nav-bar": "/components/nav-bar/uni-nav-bar/uni-nav-bar", "home-notice-bar": "/pages/home/components/homeNoticeBar", "home-search": "/pages/home/components/homeSearch", "home-header": "/pages/home/components/homeHeader", "home-top-news": "/pages/home/components/homeTopNews", "home-normal-news": "/pages/home/components/homeNormalNews" } }, "pages/community/community": { "enablePullDownRefresh": true, "usingComponents": { "community-user-info": "/pages/community/components/communityUserInfo", "community-menu": "/pages/community/components/communityMenu", "community-comming": "/pages/community/components/communityComming", "community-hot": "/pages/community/components/communityHot", "community-recommend": "/pages/community/components/communityRecommend" } }, "pages/discover/discover": { "enablePullDownRefresh": true, "usingComponents": { "discover-item": "/pages/discover/components/discoverItem", "discover-publish-type": "/pages/discover/components/discoverPublishType" } }, "pages/detail/detail": { "usingComponents": {} }, "pages/search/search": { "usingComponents": { "search-search": "/pages/search/components/searchSearch" } }, "pages/boon/boon": { "usingComponents": { "boon-header": "/pages/boon/components/boonHeader", "boon-list": "/pages/boon/components/boonList" } }, "pages/discover/republish": {} }, "globalStyle": { "navigationStyle": "default", "navigationBarTextStyle": "black", "navigationBarTitleText": "今日早间", "navigationBarBackgroundColor": "#FFFFFF", "backgroundColor": "#FFFFFF" } };exports.default = _default;
 
 /***/ }),
 

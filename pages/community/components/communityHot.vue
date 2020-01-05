@@ -5,10 +5,10 @@
 				<view class="title">{{hotData.title}}</view>
 				<view class="intro">{{hotData.sub_title}}</view>
 			</view>
-			<view class="rankView" @click="clickRank">
+			<!-- <view class="rankView" @click="clickRank">
 				<image style="float:left; width:38upx; height:38upx;" src="/static/images/community_hot.png"></image>
 				<text style="margin-left: 10upx;">热卖排行榜 ></text>
-			</view>
+			</view> -->
 		</view>
 		
 		<view class="box">
@@ -25,8 +25,8 @@
 								<text style="font-family: 'KaiTi';">{{item.price}}</text>
 								<text style="font-size: 20upx;">元</text>
 							</view>
-							<view class="member">{{vipStatus(item.vip_auth)}}</view>
-							<view class="discount">优惠{{item.save_price}}元</view>
+							<!-- <view class="member">{{vipStatus(item.vip_auth)}}</view>
+							<view class="discount">优惠{{item.save_price}}元</view> -->
 						</view>
 						<view class="itemRemark">
 							<view class="original">{{item.original_price}}</view>

@@ -5,7 +5,8 @@
     "pages/discover/discover",
     "pages/detail/detail",
     "pages/search/search",
-    "pages/boon/boon"
+    "pages/boon/boon",
+    "pages/discover/republish"
   ],
   "subPackages": [],
   "window": {
@@ -41,6 +42,5 @@
     "selectedColor": "#000"
   },
   "permission": {},
-  "usingComponents": {},
-  "sitemapLocation": "sitemap75.json"
+  "usingComponents": {}
 }

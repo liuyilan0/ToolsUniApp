@@ -22,6 +22,8 @@
             "path" : "pages/search/search"
         }, {
 			"path" : "pages/boon/boon"
+		}, {
+			"path" : "pages/discover/republish"
 		}
     ],
 	"tabBar": {

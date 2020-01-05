@@ -1,7 +1,7 @@
 <template>
 	<view class="container">
 		<block v-for="(item, index) of topNewsList" :key='index'>
-			<navigator :url='"/pages/detail/detail?id=" + item.id+"&webUrl="+item.webUrl'>
+			<!-- <navigator :url='"/pages/detail/detail?id=" + item.id+"&webUrl="+item.webUrl'> -->
 				<view class="header-view">{{newsTitle}}</view>
 				<view class="detail-view">
 					<image class="image-view" :src="item.imgUrl"></image>
@@ -16,7 +16,7 @@
 				<view class="intro-view">
 					{{item.detail}}
 				</view>
-			</navigator>
+			<!-- </navigator> -->
 		</block>
 	</view>
 </template>

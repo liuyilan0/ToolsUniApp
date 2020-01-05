@@ -23,10 +23,10 @@
 		name: 'CommunityMenu',
 		data() {
 			return {
-				menuTitle: '严选北京2%的靠谱好店',
+				menuTitle: '一起来看看你的圈里人生活吧',
 				menuList:[
 					{
-						"title":"红包专区",
+						"title":"会员专区",
 						"intro":"",
 						"pic":"/static/images/community_bag.png",
 						"tag": "每日红包"
@@ -38,12 +38,12 @@
 					},
 					{
 						"title":"捡漏专区",
-						"intro":"商品转让",
+						"intro":"",
 						"pic":""
 					},
 					{
-						"title":"好店入驻",
-						"intro":"商家申请",
+						"title":"敬请期待",
+						"intro":"敬请期待",
 						"pic":"/static/images/community_store.png"
 					}
 				]
@@ -57,6 +57,10 @@
 				switch(index) {
 					case 0:
 						console.log('红包专区')
+						uni.showToast({
+							title: '敬请期待',
+							icon: 'none'
+						})
 						break
 					case 1:
 						console.log('每日福利')
@@ -67,9 +71,17 @@
 						break
 					case 2:
 						console.log('捡漏专区')
+						uni.showToast({
+							title: '敬请期待',
+							icon: 'none'
+						})
 						break
 					case 3:
 						console.log('好店入驻')
+						uni.showToast({
+							title: '敬请期待',
+							icon: 'none'
+						})
 						break
 				}
 					

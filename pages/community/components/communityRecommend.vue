@@ -5,11 +5,11 @@
 				<view class="title">{{recommendData.title}}</view>
 				<view class="intro">{{recommendData.sub_title}}</view>
 			</view>
-			<view class="filterView">
+			<!-- <view class="filterView">
 				<block v-for="(item,index) of filterViewItemList" :key='index'>
 					<view @click="clickFilterView(index)" class="item" :class="{'selected': filterSelectedIndex===index}">{{item}}</view>
 				</block>
-			</view>
+			</view> -->
 		</view>
 
 		<block v-for="(item, index) in recommendList" :key='index'>
@@ -28,9 +28,9 @@
 						<text style="font-family: 'KaiTi';">{{item.bottom_price}}</text>
 						<text style="font-size: 20upx;">元</text>
 					</view>
-					<view class="member">{{vipStatus(item.vip_auth)}}</view>
+					<!-- <view class="member">{{vipStatus(item.vip_auth)}}</view>
 					<view class="discount">优惠{{item.vip_discount}}元</view>
-					<view class="buy">购买</view>
+					<view class="buy">购买</view> -->
 				</view>
 				<view class="itemRemark">
 					<view class="original">原价{{item.original_price}}</view>
