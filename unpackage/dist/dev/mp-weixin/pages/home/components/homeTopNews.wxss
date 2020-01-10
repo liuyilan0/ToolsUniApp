@@ -23,6 +23,7 @@
 }
 .container .detail-view .image-view.data-v-cce0b69c {
   width: 100%;
+  image: 200rpx;
   border-radius: 10rpx;
 }
 .container .detail-view .news-view.data-v-cce0b69c {

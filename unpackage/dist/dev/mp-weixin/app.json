@@ -4,6 +4,7 @@
     "pages/community/community",
     "pages/discover/discover",
     "pages/detail/detail",
+    "pages/home/home_detail",
     "pages/search/search",
     "pages/boon/boon",
     "pages/discover/republish"

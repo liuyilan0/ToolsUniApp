@@ -8,7 +8,7 @@
 					<view class="news-view">
 						<view class="hot">
 							<image class="image" src="/static/images/hot_home.png"></image>
-							<label>{{item.hot}}热度</label>
+							<label>{{item.hot}}</label>
 						</view>
 						<view class="title">{{item.title}}</view>
 					</view>
@@ -52,6 +52,7 @@
 			position: relative
 			.image-view
 				width: 100%
+				image: 200upx
 				border-radius: 10upx
 			.news-view
 				position: absolute

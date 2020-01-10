@@ -1,7 +1,7 @@
 <template>
 	<view>
 		<home-notice-bar :noticeText="homeData.noticeText"></home-notice-bar>
-		<home-search :searchKeyListProp="homeData.searchKeyList" @clickSearch="searchClick"></home-search>
+		<!-- <home-search :searchKeyListProp="homeData.searchKeyList" @clickSearch="searchClick"></home-search> -->
 		<home-header :pageTitle="homeData.pageTitle"></home-header>
 		<home-top-news :newsTitle="homeData.newsTitle" :topNewsList="homeData.topNewsList"></home-top-news>
 		<home-normal-news :newsList="homeData.newsList"></home-normal-news>
@@ -19,6 +19,9 @@
 	import HomeTopNews from 'pages/home/components/homeTopNews.vue'
 	import HomeNormalNews from 'pages/home/components/homeNormalNews.vue'
 	import homeData from '@/static/mock/home.json'
+	
+	var API = require('../../utils/api.js')
+	
 	export default {
 		name: 'Home',
 		data() {
@@ -49,15 +52,12 @@
 			HomeNormalNews
 		},
 		mounted () {
-			// uni.request({
-			//         url: 'https://www.example.com/request'
-			//     })
-			//     .then(data => {
-			//         var [error, res]  = data;
-			//         console.log(res.data);
-			//     })
+			var _self = this;
 			
-			// console.log(homeData)
+			 // API.ajax('',function(res){
+			 //   console.log(res.data);
+			 //   _self.homeData = res.data;
+			 // })
 		},
 		onPullDownRefresh() {
 			uni.stopPullDownRefresh()

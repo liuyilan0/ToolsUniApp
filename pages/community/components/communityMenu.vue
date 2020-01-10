@@ -23,27 +23,27 @@
 		name: 'CommunityMenu',
 		data() {
 			return {
-				menuTitle: '一起来看看你的圈里人生活吧',
+				menuTitle: '一起来看看圈里人分享的东西吧！',
 				menuList:[
 					{
-						"title":"会员专区",
+						"title":"前端技术",
 						"intro":"",
-						"pic":"/static/images/community_bag.png",
-						"tag": "每日红包"
+						"pic":"/static/images/community_hot.png",
+						"tag": "热门"
 					},
 					{
-						"title":"每日福利",
-						"intro":"限量领取",
+						"title":"后端技术",
+						"intro":"服务器端",
 						"pic":""
 					},
 					{
-						"title":"捡漏专区",
-						"intro":"",
+						"title":"移动端",
+						"intro":"移动开发",
 						"pic":""
 					},
 					{
-						"title":"敬请期待",
-						"intro":"敬请期待",
+						"title":"小程序",
+						"intro":"",
 						"pic":"/static/images/community_store.png"
 					}
 				]
@@ -56,28 +56,28 @@
 			menuClick(index) {
 				switch(index) {
 					case 0:
-						console.log('红包专区')
 						uni.showToast({
 							title: '敬请期待',
 							icon: 'none'
 						})
 						break
 					case 1:
-						console.log('每日福利')
 						let param = {'id':'1', 'name':'2'}
-						uni.navigateTo({
-							url: '/pages/boon/boon?param=' + encodeURIComponent(JSON.stringify(param))
+						uni.showToast({
+							title: '敬请期待',
+							icon: 'none'
 						})
+						// uni.navigateTo({
+						// 	url: '/pages/boon/boon?param=' + encodeURIComponent(JSON.stringify(param))
+						// })
 						break
 					case 2:
-						console.log('捡漏专区')
 						uni.showToast({
 							title: '敬请期待',
 							icon: 'none'
 						})
 						break
 					case 3:
-						console.log('好店入驻')
 						uni.showToast({
 							title: '敬请期待',
 							icon: 'none'

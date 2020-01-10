@@ -2,7 +2,6 @@
 	<view>
 		<community-user-info :userInfo="userInfo"></community-user-info>
 		<community-menu :menu="menu"></community-menu>
-		<community-comming></community-comming>
 		<community-hot :hotData="hotList"></community-hot>
 		<community-recommend :recommendData="recommendList"></community-recommend>
 	</view>
@@ -11,7 +10,6 @@
 <script>
 	import CommunityUserInfo from 'pages/community/components/communityUserInfo.vue'
 	import CommunityMenu from 'pages/community/components/communityMenu.vue'
-	import CommunityComming from 'pages/community/components/communityComming.vue'
 	import CommunityHot from 'pages/community/components/communityHot.vue'
 	import CommunityRecommend from 'pages/community/components/communityRecommend.vue'
 	import community from '@/static/mock/community.json'
@@ -28,7 +26,6 @@
 		components: {
 			CommunityUserInfo,
 			CommunityMenu,
-			CommunityComming,
 			CommunityHot,
 			CommunityRecommend
 		},

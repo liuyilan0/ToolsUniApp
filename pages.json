@@ -16,9 +16,13 @@
 			"style": {
 				"enablePullDownRefresh":true
 			}
-		},{
+		},
+		{
             "path" : "pages/detail/detail"
-        },{
+        }, {
+            "path" : "pages/home/home_detail"
+        },
+		{
             "path" : "pages/search/search"
         }, {
 			"path" : "pages/boon/boon"
