@@ -43,5 +43,6 @@
     "selectedColor": "#000"
   },
   "permission": {},
-  "usingComponents": {}
+  "usingComponents": {},
+  "sitemapLocation": "sitemap88.json"
 }
