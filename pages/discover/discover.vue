@@ -31,6 +31,11 @@
 			DiscoverItem,
 			DiscoverPublishType
 		},
+		onReady() {
+			uni.setNavigationBarTitle({
+				title: '发现'
+			});
+		},
 		mounted() {
 			
 		},

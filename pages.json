@@ -28,6 +28,8 @@
 			"path" : "pages/boon/boon"
 		}, {
 			"path" : "pages/discover/republish"
+		}, {
+			"path" : "pages/discover/praises"
 		}
     ],
 	"tabBar": {
@@ -57,7 +59,7 @@
 	"globalStyle": {
 		"navigationStyle":"default",
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "今日早间",
+		"navigationBarTitleText": "码农库",
 		"navigationBarBackgroundColor": "#FFFFFF",
 		"backgroundColor": "#FFFFFF"
 	},

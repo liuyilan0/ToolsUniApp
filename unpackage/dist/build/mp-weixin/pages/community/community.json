@@ -1,0 +1,9 @@
+{
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "community-user-info": "/pages/community/components/communityUserInfo",
+    "community-menu": "/pages/community/components/communityMenu",
+    "community-hot": "/pages/community/components/communityHot",
+    "community-recommend": "/pages/community/components/communityRecommend"
+  }
+}

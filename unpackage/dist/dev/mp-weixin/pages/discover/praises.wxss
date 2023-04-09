@@ -1,0 +1,32 @@
+.container.data-v-956c2b6c {
+  display: flex;
+  flex-direction: column;
+}
+.container .item_view.data-v-956c2b6c {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1rpx solid #c8c7cc;
+}
+.container .item_view .userinfo.data-v-956c2b6c {
+  display: flex;
+  align-items: center;
+  margin: 16rpx 28rpx;
+}
+.container .item_view .userinfo .image.data-v-956c2b6c {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 20rpx;
+}
+.container .item_view .userinfo .name.data-v-956c2b6c {
+  font-size: 28rpx;
+  margin: 0 28rpx;
+}
+.container .item_view .userinfo .tag.data-v-956c2b6c {
+  font-size: 26rpx;
+  text-align: center;
+  padding: 8rpx 8rpx;
+  margin-top: 10rpx;
+  border-radius: 8rpx;
+  color: #fff;
+}
+

@@ -1,5 +1,5 @@
 {
-    "name" : "UniApp",
+    "name" : "码农库",
     "appid" : "__UNI__441E0AC",
     "description" : "",
     "versionName" : "1.0.0",
@@ -59,10 +59,16 @@
         "appid" : "wx3ce859dc4cdf6c2e",
         "setting" : {
             "urlCheck" : false,
-            "postcss" : false
+            "postcss" : true,
+            "es6" : true,
+            "minified" : true
         },
         "usingComponents" : true,
-        "permission" : {}
+        "permission" : {
+            "scope.userLocation" : {
+                "desc" : "获取用户位置，提供更好服务"
+            }
+        }
     },
     "mp-alipay" : {
         "usingComponents" : true

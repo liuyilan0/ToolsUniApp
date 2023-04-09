@@ -29,6 +29,19 @@
 			CommunityHot,
 			CommunityRecommend
 		},
+		onReady() {
+			uni.setNavigationBarTitle({
+				title: '社区'
+			});
+			uni.setNavigationBarColor({
+			    frontColor: '#ffffff',
+			    backgroundColor: 'rgb(91,180,180,0.6)',
+			    animation: {
+			        duration: 400,
+			        timingFunc: 'easeIn'
+			    }
+			})
+		},
 		mounted() {
 			// uni.request({
 			// 		url: '',

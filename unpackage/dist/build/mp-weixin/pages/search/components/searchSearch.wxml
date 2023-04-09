@@ -1,0 +1,1 @@
+<view class="data-v-8f03f80a"><view class="search-view data-v-8f03f80a"><input class="search data-v-8f03f80a" placeholder="{{placeholderTitle}}" confirm-type="search" data-event-opts="{{[['tap',[['clickInput',['$event']]]]]}}" bindtap="__e"/></view></view>

@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uni-icons": "/components/notice-bar/uni-icons/uni-icons"
+  }
+}

@@ -1,0 +1,1 @@
+<view class="container data-v-50db6ff2"><uni-notice-bar vue-id="3ddbf97c-1" scrollable="true" single="true" text="{{noticeText}}" speed="70" show-icon="true" data-event-opts="{{[['^click',[['noticeClick']]]]}}" bind:click="__e" class="data-v-50db6ff2" bind:__l="__l"></uni-notice-bar></view>

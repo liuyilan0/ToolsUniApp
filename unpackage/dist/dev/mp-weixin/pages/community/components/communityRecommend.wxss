@@ -1,0 +1,60 @@
+.container.data-v-9d60e146 {
+  display: flex;
+  flex-direction: column;
+  margin: 10rpx 30rpx 30rpx 30rpx;
+}
+.container .titleView.data-v-9d60e146 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 34rpx;
+  position: relative;
+}
+.container .titleView .leftView .title.data-v-9d60e146 {
+  font-size: 50rpx;
+}
+.container .titleView .leftView .intro.data-v-9d60e146 {
+  margin-top: 10rpx;
+  font-size: 28rpx;
+  color: #808080;
+}
+.container .titleView .filterView.data-v-9d60e146 {
+  position: absolute;
+  bottom: 0;
+  right: 16rpx;
+  width: 220rpx;
+  height: 56rpx;
+  line-height: 56rpx;
+  border: 2rpx solid #ffdc00;
+  border-radius: 10rpx;
+  font-size: 28rpx;
+  font-weight: 400;
+  box-shadow: 0 0 6rpx #ffdc00;
+  background: #fff;
+}
+.container .titleView .filterView .item.data-v-9d60e146 {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+.container .titleView .filterView .selected.data-v-9d60e146 {
+  background: #ffdc00;
+}
+.container .contentView.data-v-9d60e146 {
+  display: flex;
+  flex-direction: column;
+  font-size: 32rpx;
+  margin: 20rpx 0;
+}
+.container .contentView .itemImage.data-v-9d60e146 {
+  width: 100%;
+  border-radius: 8rpx;
+}
+.container .contentView .itemIntro.data-v-9d60e146 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10rpx;
+  padding: 10rpx 0;
+  font-size: 28rpx;
+  color: #808080;
+}
+

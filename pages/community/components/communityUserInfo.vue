@@ -26,18 +26,19 @@
 		name: 'CommmunityUserInfo',
 		data() {
 			return {
-				accountInfo: [{
-						"title": "粉丝",
-						"number": "0"
-					},
-					{
-						"title": "关注",
-						"number": "0"
-					},
-					{
-						"title": "点赞",
-						"number": "0"
-					}
+				accountInfo: [
+					// {
+					// 	"title": "粉丝",
+					// 	"number": "0"
+					// },
+					// {
+					// 	"title": "关注",
+					// 	"number": "0"
+					// },
+					// {
+					// 	"title": "点赞",
+					// 	"number": "0"
+					// }
 				]
 			}
 		},
