@@ -1,5 +1,0 @@
-.status_bar.data-v-160debbe {
-  height: var(--status-bar-height);
-  width: 100%;
-}
-
