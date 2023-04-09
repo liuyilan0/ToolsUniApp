@@ -73,7 +73,7 @@
 			}
 		]
 	},
-	"requiredPrivateInfos": {
-		"getLocation"
-	}
+	"requiredPrivateInfos" : [
+		"getLocation",
+	]
 }
