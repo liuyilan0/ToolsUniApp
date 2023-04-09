@@ -72,5 +72,8 @@
 				"query": "" //启动参数，在页面的onLoad函数里面得到
 			}
 		]
+	},
+	"requiredPrivateInfos": {
+		"getLocation"
 	}
 }

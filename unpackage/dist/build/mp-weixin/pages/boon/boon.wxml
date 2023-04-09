@@ -1,1 +1,1 @@
-<view class="container data-v-133bcbe5"><boon-header vue-id="1d6da940-1" class="data-v-133bcbe5" bind:__l="__l"></boon-header><boon-list vue-id="1d6da940-2" dataList="{{boonList}}" class="data-v-133bcbe5" bind:__l="__l"></boon-list></view>
+<view class="container data-v-47b2b862"><boon-header vue-id="1d6da940-1" class="data-v-47b2b862" bind:__l="__l"></boon-header><boon-list vue-id="1d6da940-2" dataList="{{boonList}}" class="data-v-47b2b862" bind:__l="__l"></boon-list></view>
