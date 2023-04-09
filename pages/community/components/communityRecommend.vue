@@ -45,33 +45,33 @@
 	.container 
 		display: flex 
 		flex-direction: column
-		margin: 10upx 30upx 30upx 30upx
+		margin: 10rpx 30rpx 30rpx 30rpx
 		.titleView
 			display: flex 
 			justify-content: space-between 
-			font-size: 34upx 
+			font-size: 34rpx 
 			position: relative
 			.leftView
 				.title 
-					font-size: 50upx 
+					font-size: 50rpx 
 				.intro 
-					margin-top: 10upx
-					font-size: 28upx 
+					margin-top: 10rpx
+					font-size: 28rpx 
 					color:#808080
 			.filterView
 				position: absolute
 				bottom: 0
-				right: 16upx
-				width: 220upx
-				height: 56upx
-				line-height: 56upx
-				border: 2upx solid rgb(255,220,0)
-				border-radius: 10upx
-				font-size: 28upx
+				right: 16rpx
+				width: 220rpx
+				height: 56rpx
+				line-height: 56rpx
+				border: 2rpx solid rgb(255,220,0)
+				border-radius: 10rpx
+				font-size: 28rpx
 				font-weight: 400
-				-webkit-box-shadow: 0 0 6upx rgb(255,220,0)
-				-moz-box-shadow: 0 0 6upx rgb(255,220,0)
-				box-shadow: 0 0 6upx rgb(255,220,0)
+				-webkit-box-shadow: 0 0 6rpx rgb(255,220,0)
+				-moz-box-shadow: 0 0 6rpx rgb(255,220,0)
+				box-shadow: 0 0 6rpx rgb(255,220,0)
 				background: #FFFFFF
 				.item 
 					width: 50%
@@ -82,16 +82,16 @@
 		.contentView 
 			display: flex 
 			flex-direction: column 
-			font-size 32upx 
-			margin: 20upx 0
+			font-size 32rpx 
+			margin: 20rpx 0
 			.itemImage
 				width: 100%
-				border-radius: 8upx
+				border-radius: 8rpx
 			.itemIntro 
 				display: flex 
 				justify-content: space-between 
-				margin-top: 10upx
-				padding: 10upx 0
-				font-size: 28upx
+				margin-top: 10rpx
+				padding: 10rpx 0
+				font-size: 28rpx
 				color: #808080
 </style>

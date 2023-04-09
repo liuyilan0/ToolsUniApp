@@ -159,15 +159,15 @@ export default {
 				display: inline-flex;
 				flex-wrap: nowrap;
 				flex-shrink: 0;
-				width: 120upx;
-				padding: 0 12upx;
+				width: 120rpx;
+				padding: 0 12rpx;
 
 				&:first-child {
 					padding-left: 0;
 				}
 
 				&:last-child {
-					width: 60upx;
+					width: 60rpx;
 				}
 
         &-right:last-child{
@@ -179,14 +179,14 @@ export default {
 
 			&-container {
 				width: 100%;
-				margin: 0 10upx;
+				margin: 0 10rpx;
 
 				&-inner {
 					width: 100%;
 					display: flex;
 					justify-content: center;
-					font-size: 30upx;
-					// padding-right: 60upx;
+					font-size: 30rpx;
+					// padding-right: 60rpx;
 				}
 			}
 		}

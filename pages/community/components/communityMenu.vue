@@ -94,51 +94,51 @@
 	.container
 		display: flex 
 		flex-direction: column
-		margin: 20upx 30upx 30upx 30upx
+		margin: 20rpx 30rpx 30rpx 30rpx
 		.titleView  
-			font-size: 40upx 
+			font-size: 40rpx 
 			font-family: Geneva
 			text-align: center
-			height: 80upx
-			line-height: 80upx
+			height: 80rpx
+			line-height: 80rpx
 		.menuView
 			display: flex
 			justify-content: space-between
 			align-items: center
-			margin-top: 16upx
-			height: 140upx
+			margin-top: 16rpx
+			height: 140rpx
 			.menu_container
 				width: 22%
 				position: relative
 				overflow: hidden
 				.menu_item
-					height: 80upx
-					border: 1upx solid #DCDCDC
-					margin: 30upx 0
-					padding: 10upx 8upx
-					border-radius: 10upx
+					height: 80rpx
+					border: 1rpx solid #DCDCDC
+					margin: 30rpx 0
+					padding: 10rpx 8rpx
+					border-radius: 10rpx
 					position: relative
 					.menu_title
-						font-size: 28upx
+						font-size: 28rpx
 						font-weight: bold
 					.menu_intro 
-						font-size: 22upx
+						font-size: 22rpx
 						color: #808080
 					.menu_icon
-						width: 30upx
-						height 30upx
+						width: 30rpx
+						height 30rpx
 						position: absolute
-						right: 10upx
-						bottom: -4upx
+						right: 10rpx
+						bottom: -4rpx
 				.menu_tag
 					position: absolute
 					top: 0
-					right: 6upx
-					padding: 6upx 8upx
-					font-size: 18upx
+					right: 6rpx
+					padding: 6rpx 8rpx
+					font-size: 18rpx
 					text-align: center
 					color: #FFFFFF
-					border-radius: 8upx
+					border-radius: 8rpx
 					background:linear-gradient(123deg,rgba(220,20,60,1) 0%,rgba(240,120,80,1) 61%,rgba(255,217,140,1) 100%)
 				
 </style>

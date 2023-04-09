@@ -53,29 +53,29 @@
 		.list 
 			display: flex
 			justify-content: flex-start 
-			margin: 20upx 20upx 0 20upx 
+			margin: 20rpx 20rpx 0 20rpx 
 			.rank-view 
-				font-size: 26upx 
+				font-size: 26rpx 
 				color: black 
-				margin-top: 10upx 
+				margin-top: 10rpx 
 			.intro-view
 				display: flex 
 				flex-direction: column 
 				min-width: 60% 
-				margin: 0 20upx 10upx 20upx 
+				margin: 0 20rpx 10rpx 20rpx 
 				.title 
-					font-size: 32upx 
+					font-size: 32rpx 
 					font-weight: 500 
 				.hot
-					font-size: 26upx 
+					font-size: 26rpx 
 					font-weight: 500 
 					color: #808080 
 			.detail-view 
-				width: 200upx
-				height: 120upx 
-				margin-top: 4upx 
+				width: 200rpx
+				height: 120rpx 
+				margin-top: 4rpx 
 				.image-view 
-					width: 170upx 
+					width: 170rpx 
 					height: 100% 
-					border-radius: 10upx
+					border-radius: 10rpx
 </style>

@@ -41,23 +41,23 @@
 		.item_view
 			display: flex
 			flex-direction: column
-			border-bottom: 1upx solid #C8C7CC
+			border-bottom: 1rpx solid #C8C7CC
 			.userinfo
 				display: flex
 				align-items: center
-				margin: 16upx 28upx
+				margin: 16rpx 28rpx
 				.image
-					width: 100upx
-					height: 100upx
-					border-radius: 20upx
+					width: 100rpx
+					height: 100rpx
+					border-radius: 20rpx
 				.name
-					font-size: 28upx
-					margin: 0 28upx
+					font-size: 28rpx
+					margin: 0 28rpx
 				.tag
-					font-size: 26upx
+					font-size: 26rpx
 					text-align: center
-					padding: 8upx 8upx
-					margin-top: 10upx
-					border-radius: 8upx
+					padding: 8rpx 8rpx
+					margin-top: 10rpx
+					border-radius: 8rpx
 					color: #FFFFFF
 </style>

@@ -37,5 +37,5 @@
 <style scoped lang="stylus">
 	.container
 		background: rgb(255,220,0)
-		padding-bottom: 30upx
+		padding-bottom: 30rpx
 </style>

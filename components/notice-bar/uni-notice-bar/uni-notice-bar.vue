@@ -31,7 +31,7 @@
       </view>
       <view
         v-if="showGetMore === 'true' || showGetMore === true"
-        :style="{ width: moreText ? '180upx' : '20px' }"
+        :style="{ width: moreText ? '180rpx' : '20px' }"
         class="uni-noticebar__content-more"
         @click="clickMore">
         <view
@@ -131,7 +131,7 @@ export default {
     },
     onClick (e) {
       let clientX = e.touches ? (e.touches[0] ? e.touches[0].clientX : e.changedTouches[0].clientX) : e.detail.clientX
-      if (uni.upx2px(48) + 12 > clientX && String(this.showClose) === 'true') {
+      if (uni.rpx2px(48) + 12 > clientX && String(this.showClose) === 'true') {
         this.show = false
         this.$emit('close')
       }
@@ -175,16 +175,16 @@ export default {
 }
 
 .uni-noticebar {
-	padding: 12upx 24upx;
+	padding: 12rpx 24rpx;
 	font-size: $uni-font-size-sm;
 	line-height: 1.5;
-	margin-bottom: 20upx;
+	margin-bottom: 20rpx;
 	@include flex-row-center;
 	justify-content: left;
 
 	&__close {
 		color: $uni-text-color-grey;
-		margin-right: 24upx;
+		margin-right: 24rpx;
 		@include flex-row-center;
 	}
 
@@ -201,15 +201,15 @@ export default {
 		&-icon {
 			display: inline-block;
 			z-index: 1;
-			padding-right: 12upx;
+			padding-right: 12rpx;
 		}
 
 		&-more {
-			width: 180upx;
+			width: 180rpx;
 			@include flex-row-center;
 			justify-content: flex-end;
 			word-break: keep-all;
-			margin-left: 10upx;
+			margin-left: 10rpx;
 			color: $uni-text-color-grey;
 
 			&-text {

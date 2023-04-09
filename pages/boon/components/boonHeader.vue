@@ -65,7 +65,7 @@
 				top: 0
 				left: 0
 		.item_container
-			margin: 20upx 20upx
+			margin: 20rpx 20rpx
 			display: flex
 			align-items: center
 			justify-content: space-between
@@ -75,13 +75,13 @@
 				flex-direction: column
 				align-items: center
 				.image_view
-					width: 100upx
-					height: 100upx
-					border-radius: 50upx
+					width: 100rpx
+					height: 100rpx
+					border-radius: 50rpx
 				.title
-					margin: 20upx
+					margin: 20rpx
 					text-align: center
-					font-size: 26upx
+					font-size: 26rpx
 					font-weight: bold
 
 </style>

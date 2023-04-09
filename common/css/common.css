@@ -31,15 +31,15 @@
 
 /** 阴影相关 */
 .shadow_box {
-	-webkit-box-shadow: 12upx 12upx 12upx #DCDCDC;
-	-moz-box-shadow: 12upx 12upx 12upx #DCDCDC;
-	box-shadow: 12upx 12upx 12upx #DCDCDC;
+	-webkit-box-shadow: 12rpx 12rpx 12rpx #DCDCDC;
+	-moz-box-shadow: 12rpx 12rpx 12rpx #DCDCDC;
+	box-shadow: 12rpx 12rpx 12rpx #DCDCDC;
 }
 
 .shadow_text {
-	--webkit-text-shadow: 0 0 6upx #DCDCDC;
-	-moz-text-shadow: 0 0 6upx #DCDCDC;
-	text-shadow: 0 0 6upx #DCDCDC;
+	--webkit-text-shadow: 0 0 6rpx #DCDCDC;
+	-moz-text-shadow: 0 0 6rpx #DCDCDC;
+	text-shadow: 0 0 6rpx #DCDCDC;
 }
 
 /** 颜色相关 */

@@ -84,23 +84,23 @@
 	.container 
 		width: 100%
 		.address_view
-			margin: 16upx 20upx
-			padding: 10upx 14upx
-			border-radius: 10upx
-			font-size: 30upx
+			margin: 16rpx 20rpx
+			padding: 10rpx 14rpx
+			border-radius: 10rpx
+			font-size: 30rpx
 			color: #FFFFFF
 		.publish_view
 			position: fixed
-			bottom: 60upx
-			right: 30upx
+			bottom: 60rpx
+			right: 30rpx
 			background: #DC3228
 			color: #FFFFFF
 			text-align: center
-			font-size: 28upx
-			width: 120upx
-			height: 120upx
-			line-height: 120upx
-			border-radius: 60upx
+			font-size: 28rpx
+			width: 120rpx
+			height: 120rpx
+			line-height: 120rpx
+			border-radius: 60rpx
 		.publish_type_view
 			position: fixed
 			top: 0

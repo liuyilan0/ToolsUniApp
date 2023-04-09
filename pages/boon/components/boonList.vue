@@ -50,46 +50,46 @@
 <style scoped lang="stylus">
 	.container
 		background: #FFFFFF
-		margin: 20upx 40upx
-		padding: 20upx 40upx
+		margin: 20rpx 40rpx
+		padding: 20rpx 40rpx
 		.item_view
 			display: flex
 			justify-content: flex-start
-			border-bottom: 1upx solid #F1F2F3
+			border-bottom: 1rpx solid #F1F2F3
 			.image_view
 				width: 30%
 				position: relative
 				.image
-					width: 180upx
-					height: 180upx
+					width: 180rpx
+					height: 180rpx
 					position: absolute
 					top: 50%
 					transform:translateY(-50%)
 			.info_view
 				width: 60%
-				margin: 20upx 30upx
+				margin: 20rpx 30rpx
 				.top_view
-					font-size: 28upx
+					font-size: 28rpx
 					font-weight: 400
 				.center_view
-					margin-top: 14upx
-					font-size: 26upx
+					margin-top: 14rpx
+					font-size: 26rpx
 					color:#555555
 				.bottom_view
-					margin-top: 14upx
-					height: 70upx
-					line-height: 70upx
+					margin-top: 14rpx
+					height: 70rpx
+					line-height: 70rpx
 					.price
 						display: inline-block
-						font-size: 24upx
+						font-size: 24rpx
 						color: #555555
 					.buyBtn
 						float: right
-						padding: 0 20upx
-						height: 60upx
-						line-height: 60upx
-						border-radius: 30upx
+						padding: 0 20rpx
+						height: 60rpx
+						line-height: 60rpx
+						border-radius: 30rpx
 						color: #FFFFFF
 						background: #DC3228
-						font-size: 30upx
+						font-size: 30rpx
 </style>

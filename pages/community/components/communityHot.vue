@@ -56,24 +56,24 @@
 	.container
 		display: flex 
 		flex-direction: column
-		margin: 10upx 30upx 30upx 30upx
+		margin: 10rpx 30rpx 30rpx 30rpx
 		.titleView
 			display: flex 
 			justify-content: space-between 
-			font-size: 34upx 
+			font-size: 34rpx 
 			position: relative
 			.leftView
 				.title 
-					font-size: 50upx 
+					font-size: 50rpx 
 				.intro 
-					margin-top: 10upx
-					font-size: 28upx 
+					margin-top: 10rpx
+					font-size: 28rpx 
 					color:#808080
 			.rankView
 				position: absolute
-				top: 16upx
-				right: 16upx
-				font-size: 30upx
+				top: 16rpx
+				right: 16rpx
+				font-size: 30rpx
 				font-weight: 400
 				color: #DC3228
 		.box 
@@ -82,17 +82,17 @@
 			justify-content: space-between
 			.contentView 
 				width: 48%
-				font-size: 26upx 
+				font-size: 26rpx 
 				.itemImage
-					margin-top: 16upx
+					margin-top: 16rpx
 					padding-bottom: 60%
-					border-radius: 6upx
+					border-radius: 6rpx
 				.itemInfo 
-					margin-top: 10upx
+					margin-top: 10rpx
 				.itemRemark
 					display: flex
 					justify-content: flex-end 
-					font-size: 24upx
+					font-size: 24rpx
 					color: #808080
-					margin: 16upx 0
+					margin: 16rpx 0
 </style>

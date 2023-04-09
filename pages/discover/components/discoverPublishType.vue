@@ -83,30 +83,30 @@
 			margin: auto
 			width: 90%
 			background: #FFFFFF
-			border-radius: 16upx
+			border-radius: 16rpx
 			.title_view
-				font-size: 30upx
+				font-size: 30rpx
 				text-align: center
-				height: 90upx
-				line-height: 90upx
+				height: 90rpx
+				line-height: 90rpx
 			.type_view
 				display: flex
 				align-items: center
 				flex-wrap: wrap
-				margin: 20upx 0
+				margin: 20rpx 0
 				.item_view
 					width: 20%
-					font-size: 26upx
+					font-size: 26rpx
 					text-align: center
-					margin: 16upx 0
+					margin: 16rpx 0
 					.image
-						width: 80upx
-						height: 80upx
-						border-radius: 40upx
+						width: 80rpx
+						height: 80rpx
+						border-radius: 40rpx
 			.cancel_view
 				background: #F1F1F1
 				text-align: center
-				height: 80upx
-				line-height: 80upx
-				font-size: 30upx
+				height: 80rpx
+				line-height: 80rpx
+				font-size: 30rpx
 </style>

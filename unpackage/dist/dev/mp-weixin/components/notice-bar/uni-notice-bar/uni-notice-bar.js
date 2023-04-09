@@ -247,7 +247,7 @@ __webpack_require__.r(__webpack_exports__);
     },
     onClick: function onClick(e) {
       var clientX = e.touches ? e.touches[0] ? e.touches[0].clientX : e.changedTouches[0].clientX : e.detail.clientX;
-      if (uni.upx2px(48) + 12 > clientX && String(this.showClose) === 'true') {
+      if (uni.rpx2px(48) + 12 > clientX && String(this.showClose) === 'true') {
         this.show = false;
         this.$emit('close');
       }

@@ -51,31 +51,31 @@
 			flex-direction: row
 			justify-content: space-between
 			align-items: center
-			padding: 15upx 20upx
+			padding: 15rpx 20rpx
 			.date-view
 				display: flex
 				flex-direction: column
-				margin-left: 30upx
+				margin-left: 30rpx
 				text-align: center
-				font-size: 16upx
+				font-size: 16rpx
 				.day 
-					font-size: 40upx
-					border-bottom: 1upx dashed black
+					font-size: 40rpx
+					border-bottom: 1rpx dashed black
 					font-family: 'KaiTi'
 				.date
-					height: 28upx
-					line-height: 28upx
+					height: 28rpx
+					line-height: 28rpx
 					font-family: 'KaiTi'
 			.title
-				font-size: 56upx
+				font-size: 56rpx
 				font-family: 'KaiTi'
 			.category 
-				width: 44upx 
-				height: 44upx
-				line-height: 44upx
-				margin-right: 30upx
+				width: 44rpx 
+				height: 44rpx
+				line-height: 44rpx
+				margin-right: 30rpx
 		.bottom_line
-			height: 4upx 
-			margin: 6upx 20upx 
+			height: 4rpx 
+			margin: 6rpx 20rpx 
 			background: black
 </style>

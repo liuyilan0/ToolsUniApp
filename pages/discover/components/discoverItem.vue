@@ -81,58 +81,58 @@
 		.item_view
 			display: flex
 			flex-direction: column
-			border-bottom: 10upx solid #C8C7CC
+			border-bottom: 10rpx solid #C8C7CC
 			.userinfo
 				display: flex
 				align-items: center
-				margin: 16upx 24upx
+				margin: 16rpx 24rpx
 				position: relative
 				.image
-					width: 100upx
-					height: 100upx
-					border-radius: 20upx
+					width: 100rpx
+					height: 100rpx
+					border-radius: 20rpx
 				.user
-					margin-left: 20upx
+					margin-left: 20rpx
 					.name
-						font-size: 28upx
+						font-size: 28rpx
 					.tag
-						font-size: 26upx
+						font-size: 26rpx
 						text-align: center
-						padding: 8upx 8upx
-						margin-top: 10upx
-						border-radius: 8upx
+						padding: 8rpx 8rpx
+						margin-top: 10rpx
+						border-radius: 8rpx
 						color: #FFFFFF
 				.phone
 					position: absolute
-					right: 16upx
+					right: 16rpx
 					margin: auto
 					
-					margin-top: 6upx
-					width: 150upx
-					height: 46upx
-					line-height: 46upx
-					border-radius: 23upx
+					margin-top: 6rpx
+					width: 150rpx
+					height: 46rpx
+					line-height: 46rpx
+					border-radius: 23rpx
 					text-align: center
 					background:#4CD964
 					color: #FFFFFF
-					font-size: 28upx
+					font-size: 28rpx
 			.contentinfo
-				margin: 16upx 24upx
+				margin: 16rpx 24rpx
 				.content
-					font-size: 30upx
+					font-size: 30rpx
 				.related
-					margin-top: 20upx
-					font-size: 26upx
+					margin-top: 20rpx
+					font-size: 26rpx
 					.text 
-						margin-left: 20upx
+						margin-left: 20rpx
 			.praises
 				display: flex
 				justify-content: space-between
-				margin: 10upx 20upx
-				padding-top: 14upx
-				border-top: 1upx solid #F1F2F3
-				font-size: 30upx
-				height: 60upx
+				margin: 10rpx 20rpx
+				padding-top: 14rpx
+				border-top: 1rpx solid #F1F2F3
+				font-size: 30rpx
+				height: 60rpx
 				.item
 					text-align: center
 					width: 33%

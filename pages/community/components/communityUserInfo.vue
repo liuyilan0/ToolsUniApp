@@ -6,8 +6,8 @@
 				<view class="account_info">
 					<block v-for="(item,index) of accountInfo" :key='index'>
 						<view class="account_item">
-							<view style="margin-left: 6upx;">{{item.number}}</view>
-							<view style="margin-top: 12upx;">{{item.title}}</view>
+							<view style="margin-left: 6rpx;">{{item.number}}</view>
+							<view style="margin-top: 12rpx;">{{item.title}}</view>
 						</view>
 					</block>
 				</view>
@@ -17,7 +17,7 @@
 			</view>
 		</view>
 
-		<!-- <canvas style="width: 400upx; height: 160upx;" canvas-id="canvas"></canvas> -->
+		<!-- <canvas style="width: 400rpx; height: 160rpx;" canvas-id="canvas"></canvas> -->
 	</view>
 </template>
 
@@ -112,25 +112,25 @@
 		display: flex 
 		align-items: center 
 		justify-content: space-between 
-		padding: 20upx 30upx 
+		padding: 20rpx 30rpx 
 		.user_info 
 			width: 60% 
 		.name_info 
-			margin: 20upx 0 
-			font-size: 34upx 
+			margin: 20rpx 0 
+			font-size: 34rpx 
 		.account_info 
 			display: flex 
 			justify-content: space-between 
-			margin: 30upx 0 
+			margin: 30rpx 0 
 			.account_item 
 				font-weight: 400 
-				font-size: 26upx 
+				font-size: 26rpx 
 				font-family: 'KaiTi'
 		.icon_view 
-			width: 120upx 
-			height: 120upx 
+			width: 120rpx 
+			height: 120rpx 
 			.icon 
 				width: 100% 
 				height: 100% 
-				border-radius: 60upx
+				border-radius: 60rpx
 </style>

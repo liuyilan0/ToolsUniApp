@@ -53,8 +53,8 @@ export default {
 	display: inline-block;
 	text-decoration: none;
 	-webkit-font-smoothing: antialiased;
-	margin-left: 20upx;
-	margin-top: 20upx;
+	margin-left: 20rpx;
+	margin-top: 20rpx;
 }
 
 .uni-icon.uni-active {

@@ -40,41 +40,41 @@
 	.container 
 		display: flex
 		flex-direction: column
-		margin: 10upx 20upx 4upx 20upx
-		border-bottom: 1upx solid #C0C0C0
+		margin: 10rpx 20rpx 4rpx 20rpx
+		border-bottom: 1rpx solid #C0C0C0
 		.header-view
-			font-size: 36upx
+			font-size: 36rpx
 			font-weight: 900
-			margin-left: 10upx
+			margin-left: 10rpx
 		.detail-view
-			font-size: 30upx 
-			margin: 15upx 0
+			font-size: 30rpx 
+			margin: 15rpx 0
 			position: relative
 			.image-view
 				width: 100%
-				image: 200upx
-				border-radius: 10upx
+				image: 200rpx
+				border-radius: 10rpx
 			.news-view
 				position: absolute
-				left: 25upx
-				right: 25upx
-				bottom: 20upx
+				left: 25rpx
+				right: 25rpx
+				bottom: 20rpx
 				color: white
 				.hot
-					font-size: 26upx
-					height: 72upx
+					font-size: 26rpx
+					height: 72rpx
 					display: flex
 					align-items: center
 					.image 
-						width: 44upx
-						height: 44upx
+						width: 44rpx
+						height: 44rpx
 				.title
-					margin-top: 10upx
-					font-size: 40upx
+					margin-top: 10rpx
+					font-size: 40rpx
 					font-weight: 900
 		.intro-view
-			margin: 0 10upx 10upx 10upx
-			font-size: 26upx
+			margin: 0 10rpx 10rpx 10rpx
+			font-size: 26rpx
 			color: #555555
 			
 </style>
