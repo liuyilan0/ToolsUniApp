@@ -15,7 +15,7 @@
 .container .list .intro-view.data-v-65b2033b {
   display: flex;
   flex-direction: column;
-  width: 66%;
+  min-width: 60%;
   margin: 0 20rpx 10rpx 20rpx;
 }
 .container .list .intro-view .title.data-v-65b2033b {
@@ -28,12 +28,12 @@
   color: #808080;
 }
 .container .list .detail-view.data-v-65b2033b {
-  width: 170rpx;
-  height: 100rpx;
+  width: 200rpx;
+  height: 120rpx;
   margin-top: 4rpx;
 }
 .container .list .detail-view .image-view.data-v-65b2033b {
-  width: 100%;
+  width: 170rpx;
   height: 100%;
   border-radius: 10rpx;
 }

@@ -33,10 +33,10 @@
 		},
 		methods: {
 			categoryClick () {
-				wx.showToast({
-					title: '切换类别',
-					icon: 'none'
-				})
+				// wx.showToast({
+				// 	title: '切换类别',
+				// 	icon: 'none'
+				// })
 			}
 		}
 	}

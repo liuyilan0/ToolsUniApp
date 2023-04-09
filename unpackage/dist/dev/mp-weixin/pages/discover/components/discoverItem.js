@@ -177,9 +177,11 @@ var _default =
     },
     praiseClick: function praiseClick(data, e) {
       var list = data.praises ? data.praises.data : [];
-      uni.navigateTo({
-        url: '/pages/discover/praises?dataList=' + encodeURIComponent(JSON.stringify(list)) });
+      if (list && list.length > 0) {
+        uni.navigateTo({
+          url: '/pages/discover/praises?dataList=' + encodeURIComponent(JSON.stringify(list)) });
 
+      }
     },
     shareClick: function shareClick() {
 

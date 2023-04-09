@@ -149,10 +149,10 @@ var _default =
 
   methods: {
     categoryClick: function categoryClick() {
-      wx.showToast({
-        title: '切换类别',
-        icon: 'none' });
-
+      // wx.showToast({
+      // 	title: '切换类别',
+      // 	icon: 'none'
+      // })
     } } };exports.default = _default;
 
 /***/ }),
