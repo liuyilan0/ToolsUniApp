@@ -63,13 +63,9 @@
 						break
 					case 1:
 						let param = {'id':'1', 'name':'2'}
-						uni.showToast({
-							title: '敬请期待',
-							icon: 'none'
+						uni.navigateTo({
+							url: '/pages/boon/boon?param=' + encodeURIComponent(JSON.stringify(param))
 						})
-						// uni.navigateTo({
-						// 	url: '/pages/boon/boon?param=' + encodeURIComponent(JSON.stringify(param))
-						// })
 						break
 					case 2:
 						uni.showToast({

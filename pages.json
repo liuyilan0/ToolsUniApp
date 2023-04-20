@@ -16,9 +16,11 @@
 			"style": {
 				"enablePullDownRefresh":true
 			}
+		}, {
+			"path":"pages/map/map"
 		},
 		{
-            "path" : "pages/detail/detail"
+            "path" : "pages/webview/webview"
         }, {
             "path" : "pages/home/home_detail"
         },
@@ -36,21 +38,33 @@
 		"list": [{
 				"pagePath": "pages/home/home",
 				"text": "首页",
-				"iconPath": "static/images/home.png",
-				"selectedIconPath": "static/images/home-selected.png"
+				"iconPath": "static/images/tabbar_home.png",
+				"selectedIconPath": "static/images/tabbar_home_selected.png"
 			},
 			{
 				"pagePath": "pages/community/community",
 				"text": "社区",
-				"iconPath": "static/images/community.png",
-				"selectedIconPath": "static/images/community-selected.png"
+				"iconPath": "static/images/tabbar_community.png",
+				"selectedIconPath": "static/images/tabbar_community_selected.png"
 			},
 			{
 				"pagePath": "pages/discover/discover",
 				"text": "发现",
-				"iconPath": "static/images/discover.png",
-				"selectedIconPath": "static/images/discover-selected.png"
+				"iconPath": "static/images/tabbar_discover.png",
+				"selectedIconPath": "static/images/tabbar_discover_selected.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "static/images/tabbar_me.png",
+				"selectedIconPath": "static/images/tabbar_me_selected.png"
 			}
+			// {
+			// 	"pagePath": "pages/map/map",
+			// 	"text": "地图",
+			// 	"iconPath": "static/images/tabbar_map.png",
+			// 	"selectedIconPath": "static/images/tabbar_map_selected.png"
+			// }
 		],
 		"backgroundColor": "#ffffff",
 		"color": "#8F8F94",
@@ -72,8 +86,6 @@
 				"query": "" //启动参数，在页面的onLoad函数里面得到
 			}
 		]
-	},
-	"requiredPrivateInfos" : [
-		"getLocation",
-	]
+	}
 }
+

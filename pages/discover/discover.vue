@@ -10,15 +10,12 @@
 </template>
 
 <script>
-	// 引入SDK核心类
-	var QQMapWX = require('../../utils/qqmap-wx-jssdk.js');
-	var qqmapsdk;
-	var app = getApp();
-	
 	import discoverData from '@/static/mock/discover.json'
 	import DiscoverItem from 'pages/discover/components/discoverItem.vue'
 	import DiscoverPublishType from 'pages/discover/components/discoverPublishType.vue'
-	
+	import {
+		getUniLocation
+	} from '@/utils/location';
 	export default {
 		data() {
 			return {
@@ -51,31 +48,20 @@
 			uni.stopPullDownRefresh()
 		},
 		onLoad() {
-			var _self = this
-			
-			// 实例化API核心类
-			qqmapsdk = new QQMapWX({
-				key: app.globalData.qqmapsdkKey
-			});
-			
-			uni.getLocation({
-				type: 'gcj02', 
-				success: function(res) {
-
-					const latitude = res.latitude
-					const longitude = res.longitude
-			
-					qqmapsdk.reverseGeocoder({
-						location: {
-							latitude: latitude,
-							longitude: longitude
-						},
-						success: function(res) {
-							_self.locationAddress = res.result.address
-						},
-					})
-				}
-			});
+			// getUniLocation().then(res => {
+			// 	this.$qqmapsdk.reverseGeocoder({
+			// 		location: {
+			// 			latitude: res.latitude,
+			// 			longitude: res.longitude
+			// 		},
+			// 		success: (res) => {
+			// 			this.locationAddress = res.result.address;
+			// 		},
+			// 		fail: function(err) {
+			// 			console.log(err);
+			// 		}
+			// 	})
+			// })
 		}
 	}
 </script>

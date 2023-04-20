@@ -22,7 +22,6 @@
 					</view>
 				</view>
 				<view class="praises">
-					<!-- <view class="item" @click="commentClick">评论({{item.commentCount}})</view> -->
 					<view style="width: 50%"></view>
 					<view class="item" @click="praiseClick(item, $event)">点赞({{item.praiseCount}})</view>
 					<view class="item" @click="shareClick">转发({{item.shareCount}})</view>
@@ -55,9 +54,6 @@
 				uni.makePhoneCall({
 					phoneNumber: e.currentTarget.dataset.phone
 				})
-			},
-			commentClick () {
-				
 			},
 			praiseClick(data, e) {
 				const list = data.praises ? data.praises.data : [];

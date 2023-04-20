@@ -3,6 +3,7 @@
     "pages/home/home",
     "pages/community/community",
     "pages/discover/discover",
+    "pages/map/map",
     "pages/detail/detail",
     "pages/home/home_detail",
     "pages/search/search",
@@ -23,30 +24,25 @@
       {
         "pagePath": "pages/home/home",
         "text": "首页",
-        "iconPath": "static/images/home.png",
-        "selectedIconPath": "static/images/home-selected.png"
+        "iconPath": "static/images/tabbar_home.png",
+        "selectedIconPath": "static/images/tabbar_home_selected.png"
       },
       {
         "pagePath": "pages/community/community",
         "text": "社区",
-        "iconPath": "static/images/community.png",
-        "selectedIconPath": "static/images/community-selected.png"
+        "iconPath": "static/images/tabbar_community.png",
+        "selectedIconPath": "static/images/tabbar_community_selected.png"
       },
       {
         "pagePath": "pages/discover/discover",
         "text": "发现",
-        "iconPath": "static/images/discover.png",
-        "selectedIconPath": "static/images/discover-selected.png"
+        "iconPath": "static/images/tabbar_discover.png",
+        "selectedIconPath": "static/images/tabbar_discover_selected.png"
       }
     ],
     "backgroundColor": "#ffffff",
     "color": "#8F8F94",
     "selectedColor": "#000"
-  },
-  "permission": {
-    "scope.userLocation": {
-      "desc": "获取用户位置，提供更好服务"
-    }
   },
   "usingComponents": {}
 }

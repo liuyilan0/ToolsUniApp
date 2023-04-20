@@ -63,13 +63,14 @@
             "es6" : true,
             "minified" : true
         },
-        "usingComponents" : true,
-        "permission" : {
-            "scope.userLocation" : {
-                "desc" : "获取用户位置，提供更好服务"
-            }
-        }
+        "usingComponents" : true
     },
+    // "permission" : {
+    //     "scope.userLocation" : {
+    //         "desc" : "获取位置信息用于用户位置展示，便于更好的服务"
+    //     }
+    // },
+    // "requiredPrivateInfos" : [ "getLocation" ],
     "mp-alipay" : {
         "usingComponents" : true
     },
@@ -78,5 +79,14 @@
     },
     "mp-toutiao" : {
         "usingComponents" : true
+    },
+    "h5" : {
+        "sdkConfigs" : {
+            "maps" : {
+                "qqmap" : {
+                    "key" : "UPKBZ-37IKW-Z4MRK-RDA4Y-M2OAS-24BLU"
+                }
+            }
+        }
     }
 }

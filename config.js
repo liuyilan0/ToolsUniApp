@@ -22,9 +22,9 @@ const info = {
 // ########################### //
 
 const api = {
-	banners: `${host}/api/v1/banners`,
-	register: `${host}/api/v1/register`,
-	login: `${host}/api/v1/login`,
+	banners: `${host}/api/banners`,
+	register: `${host}/api/register`,
+	login: `${host}/api/login`,
 }
 
 module.exports = {

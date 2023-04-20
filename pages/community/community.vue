@@ -54,7 +54,7 @@
 			// 	})
 			
 			// 模拟数据
-			console.log(community)
+			// console.log(community)
 		},
 		onPullDownRefresh() {
 			uni.stopPullDownRefresh()

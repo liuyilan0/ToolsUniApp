@@ -6,11 +6,15 @@
             "type" : "uni-app:h5"
         },
 	{
-		"mp-weixin" : 
-		{
-			"launchtype" : "local"
-		},
-		"type" : "uniCloud"
-	}
+    	"h5" : 
+    	{
+    		"launchtype" : "local"
+    	},
+    	"mp-weixin" : 
+    	{
+    		"launchtype" : "local"
+    	},
+    	"type" : "uniCloud"
+    }
     ]
 }

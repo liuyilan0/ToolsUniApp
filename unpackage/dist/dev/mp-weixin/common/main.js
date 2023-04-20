@@ -20,6 +20,13 @@ var app = new _vue.default(_objectSpread({},
 _App.default));
 
 createApp(app).$mount();
+
+var QQMapWX = __webpack_require__(/*! qqmap-wx-jssdk */ 12);
+// 实例化API核心类
+var qqmapsdk = new QQMapWX({
+  key: 'UPKBZ-37IKW-Z4MRK-RDA4Y-M2OAS-24BLU' });
+
+_vue.default.prototype.$qqmapsdk = qqmapsdk;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["createApp"]))
 
 /***/ }),
@@ -92,9 +99,9 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default =
 {
-  globalData: {
-    qqmapsdkKey: 'UPKBZ-37IKW-Z4MRK-RDA4Y-M2OAS-24BLU' // qqmapKey
-  },
+  // globalData: {
+  // 	qqmapsdkKey: 'UPKBZ-37IKW-Z4MRK-RDA4Y-M2OAS-24BLU'  // qqmapKey
+  // },
   onLaunch: function onLaunch() {
     console.log('App Launch');
   },
