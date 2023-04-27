@@ -32,6 +32,8 @@
 			"path" : "pages/discover/republish"
 		}, {
 			"path" : "pages/discover/praises"
+		}, {
+			"path": "pages/my/my"
 		}
     ],
 	"tabBar": {

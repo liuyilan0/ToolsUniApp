@@ -22,7 +22,6 @@
 	import HomeHeader from 'pages/home/components/homeHeader.vue'
 	import HomeTopNews from 'pages/home/components/homeTopNews.vue'
 	import HomeNormalNews from 'pages/home/components/homeNormalNews.vue'
-	import homeData from '@/static/mock/home.json'
 	const {
 		ajax,
 		api
@@ -32,7 +31,7 @@
 		name: 'Home',
 		data() {
 			return {
-				homeData: homeData
+				homeData: null
 			}
 		},
 		methods: {
@@ -60,6 +59,7 @@
 		mounted() {
 			ajax(api.home, 'GET', {}).then(data => {
 				this.homeData = data;
+				console.log('data:', this.homeData);
 			})
 		},
 		onPullDownRefresh() {

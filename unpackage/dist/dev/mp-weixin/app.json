@@ -4,12 +4,13 @@
     "pages/community/community",
     "pages/discover/discover",
     "pages/map/map",
-    "pages/detail/detail",
+    "pages/webview/webview",
     "pages/home/home_detail",
     "pages/search/search",
     "pages/boon/boon",
     "pages/discover/republish",
-    "pages/discover/praises"
+    "pages/discover/praises",
+    "pages/my/my"
   ],
   "subPackages": [],
   "window": {
@@ -38,6 +39,12 @@
         "text": "发现",
         "iconPath": "static/images/tabbar_discover.png",
         "selectedIconPath": "static/images/tabbar_discover_selected.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/images/tabbar_me.png",
+        "selectedIconPath": "static/images/tabbar_me_selected.png"
       }
     ],
     "backgroundColor": "#ffffff",
