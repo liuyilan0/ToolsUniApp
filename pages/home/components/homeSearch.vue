@@ -27,6 +27,7 @@
 		watch: {
 			searchKeyList: function() {
 				const searchKey = this.searchKeyList[0]
+				console.log(searchKey);
 				this.placeholderTitle = '大家都在搜 ' + searchKey.words
 				this.placehodlerId = searchKey.id
 			}

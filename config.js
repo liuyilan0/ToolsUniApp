@@ -1,6 +1,3 @@
-// api host
-let host = 'http://localhost:8080/'
-
 // 是否是调试模式。如果是生产环境，请设置为false
 const debug = true
 
@@ -17,18 +14,7 @@ const info = {
 	author: 'aliya',
 }
 
-// ########################### //
-// 以上配置可修改，以下配置不要修改 //
-// ########################### //
-
-const api = {
-	banners: `${host}/api/banners`,
-	register: `${host}/api/register`,
-	login: `${host}/api/login`,
-}
-
 module.exports = {
-	api,
 	debug,
 	bannerRatio,
 	info,

@@ -11,7 +11,8 @@
 		name: 'SearchSearch',
 		data () {
 			return {
-				placeholderTitle: '请输入商品名称'
+				placeholderTitle: '请输入关键词',
+				searchKeyList: []
 			}
 		},
 		props: {

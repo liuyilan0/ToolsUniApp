@@ -1,5 +1,5 @@
 <template>
-	<view class="container">
+	<view class="container" v-if="noticeText">
 		<uni-notice-bar scrollable="true" single="true" :text="noticeText" speed="70" show-icon="true" @click="noticeClick"></uni-notice-bar>
 	</view>
 </template>

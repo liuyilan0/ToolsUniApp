@@ -3,11 +3,11 @@
 		<block v-for="(item, index) of newsList" :key='index'>
 			<view class="list" :style="(index<newsList.length-1) ? listStyle: ''" @click="itemClick(index)">
 				<view class="rank-view" :style="(index<2) ? rankStyle: ''">
-					{{item.rank}}
+					{{item.id}}
 				</view>
 				<view class="intro-view">
 					<label class="title">{{item.title}}</label>
-					<label class="hot">{{item.hot}}</label>
+					<label class="hot">{{item.detail}}</label>
 				</view>
 				<view v-if="item.imgUrl" class="detail-view">
 					<image class="image-view" :src="item.imgUrl"></image>
