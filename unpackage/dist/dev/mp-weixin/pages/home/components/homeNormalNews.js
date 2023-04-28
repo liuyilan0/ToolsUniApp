@@ -81,7 +81,7 @@ var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  var g0 = _vm.newsList.length
+  var g0 = _vm.list.length
   _vm.$mp.data = Object.assign(
     {},
     {
@@ -125,10 +125,19 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 /* WEBPACK VAR INJECTION */(function(uni) {
 
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
+var _regenerator = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/regenerator */ 41));
+var _asyncToGenerator2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/asyncToGenerator */ 43));
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -151,7 +160,16 @@ exports.default = void 0;
 var _default = {
   name: 'HomeNormalNews',
   data: function data() {
-    return {};
+    return {
+      pageInfo: {
+        pageNum: 1,
+        pageSize: 10,
+        total: 0
+      },
+      isLoading: false,
+      hasMore: true,
+      list: []
+    };
   },
   props: {
     newsList: Array
@@ -164,11 +182,77 @@ var _default = {
       return 'color: red';
     }
   },
+  mounted: function mounted() {
+    this.list = this.newsList;
+  },
   methods: {
     itemClick: function itemClick(index) {
       uni.navigateTo({
-        url: '/pages/home/home_detail?path=' + this.newsList[index].webUrl
+        url: '/pages/home/home_detail?path=' + this.list[index].webUrl
       });
+    },
+    getListData: function getListData(pageNum, pageSize) {
+      return (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee() {
+        return _regenerator.default.wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee);
+      }))();
+    } // ...
+    ,
+    onRefresh: function onRefresh() {
+      console.log('onRefresh');
+    },
+    onLoadMore: function onLoadMore() {
+      var _this = this;
+      return (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee2() {
+        var res, data;
+        return _regenerator.default.wrap(function _callee2$(_context2) {
+          while (1) {
+            switch (_context2.prev = _context2.next) {
+              case 0:
+                console.log('onLoadMore');
+                // 如果已经在加载中或者没有更多数据了，则不再请求
+                if (!(_this.isLoading || !_this.hasMore)) {
+                  _context2.next = 3;
+                  break;
+                }
+                return _context2.abrupt("return");
+              case 3:
+                _this.isLoading = true;
+
+                // 请求数据
+                _context2.next = 6;
+                return _this.getListData(_this.pageInfo.pageNum, _this.pageInfo.pageSize);
+              case 6:
+                res = _context2.sent;
+                data = res.data; // 如果请求得到数据，则将数据合并存储到列表数组中
+                if (data.length) {
+                  _this.list = _this.list.concat(data);
+                  _this.pageInfo.total = res.total;
+                  _this.pageInfo.pageNum++;
+                }
+                // 如果没有更多数据，则设置 hasMore 为 false，提示没有更多数据
+                if (!data.length || _this.list.length === _this.pageInfo.total) {
+                  _this.hasMore = false;
+                  uni.showToast({
+                    title: "没有更多数据了",
+                    icon: "none"
+                  });
+                }
+                _this.isLoading = false;
+              case 11:
+              case "end":
+                return _context2.stop();
+            }
+          }
+        }, _callee2);
+      }))();
     }
   }
 };
